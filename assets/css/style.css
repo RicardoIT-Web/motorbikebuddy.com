@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Open-sans, Montserrat;
+    font-weight: 700;
+    color: rgb(221, 93, 8)
+}
+
+/* nav bar */
+
+#mblogo {
+    float: left;
+    width: 350px;
+    height: 100px;
+}
+
+#barmenus {
+    font-size: 130%;
+    letter-spacing: 5px;
+}
+
+#barmenus, #mblogo {
+    line-height: 75px;
+}
+
+#barmenus li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#barmenus a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#barmenus a:hover {
+    border-bottom: 1px solid rgb(221, 93, 8)
+}
+
+.active {
+    border-bottom: 1px solid rgb(221, 93, 8)
+}
