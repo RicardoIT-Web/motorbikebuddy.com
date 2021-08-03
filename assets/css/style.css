@@ -8,7 +8,6 @@
 
 body {
     font-family: Open-sans, Montserrat;
-    font-weight: 700;
     color: rgb(245, 100, 3)
 }
 
@@ -22,7 +21,7 @@ body {
 }
 
 #barmenus {
-    font-size: 130%;
+    font-size: auto;
     letter-spacing: 5px;
     margin: 5px;
 }
@@ -52,58 +51,82 @@ body {
 
 /* Hero Image */
 
-#hero-outer {
-    height: 500px;
-    width: 100%;
-    
-}
-
 #hero-image {
     height: 1000px;
     width: 100%;
     background: url(../images/Photo\ 4.jpg) no-repeat center center /cover;
 }
 
-
 /* events tiles */
 
 #event1 {
-    background-image: url('../images/Photo\ 1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     width: 100%;
     overflow: hidden;
-    color: #0c0c0c;
-    background-color: rgba(0,0,0, .6);
+    color: white;
+    background-color: rgba(0,0,0, .4);
     width: 20%;
-    height: 200px;
-    float: left;
+    height: 300px;
+    float: center;
+    padding: 0 0 0 4px;
+    border: 10px solid transparent;
+    position: relative;
+}
+
+#event1 img {
+    width: 100%;
+    height: auto;
 }
 
 #event2 {
-    background-image: url('../images/Photo\ 6.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     width: 100%;
     overflow: hidden;
+    color: white;
+    background-color: rgba(0,0,0, .4);
+    width: 20%;
+    height: 300px;
+    float: center;
+    padding: 0 0 0 4px;
+    border: 10px solid transparent;
+    position: relative;
+}
+
+#event2 img {
+    width: 100%;
+    height: auto;
 }
 
 #event3 {
-    background-image: url('../images/Photo\ 18.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     width: 100%;
     overflow: hidden;
+    color: white;
+    background-color: rgba(0,0,0, .4);
+    width: 20%;
+    height: 300px;
+    float: center;
+    padding: 0 0 0 4px;
+    border: 10px solid transparent;
+    position: relative;
+}
+
+#event3 img {
+    width: 100%;
+    height: auto;
 }
 
 #event4 {
-    background-image: url('../images/Photo\ 8.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     width: 100%;
     overflow: hidden;
+    color: white;
+    background-color: rgba(0,0,0, .4);
+    width: 20%;
+    height: 300px;
+    float: center;
+    padding: 0 0 0 4px;
+    border: 10px solid transparent;
+    position: relative;
+}
+
+#event4 img {
+    width: 100%;
+    height: auto;
 }
