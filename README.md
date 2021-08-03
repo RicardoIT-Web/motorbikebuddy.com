@@ -1,104 +1,140 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Motorbikebuddy Logo](https://user-images.githubusercontent.com/86360744/127296637-c0bfef77-1349-4904-b565-662f2adbd157.jpg)
 
-Welcome RicardoIT-Web,
+# Welcome to [motorbikebuddy.com](https://motorbikebuddy.com) A Social Networking Website for Motorbike Enthusiasts
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
 
-## Gitpod Reminders
+## Table of Contents
+* [Purpose of this Project](Purpose-of-this-Project)
+* [User Stories](User-Stories)
+* [Features](Features)
+* [Future Features](Future-Features)
+* [Typography and Color schemes](Typography-and-Color-schemes)
+* [Testing](Testing)
+* [Unfixed Bugs](Unfixed-Bugs)
+* [Deployment](Deployment)
+* [Credits](Credits)
+* [Wireframes](Wireframes)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+# Purpose of this Project
 
-A blue button should appear to click: _Make Public_,
+The purpose of this Social Networking website is to provide a platform for motorbike fans around the world to arrange gatherings for short trips, touring holidays and arrange related events where bikers can come together and experience memorable adventures. 
 
-Another blue button should appear to click: _Open Browser_.
+* Please refer to the "Features" section below for more details of what this release version will include. 
+* Other features in future releases will be included in "Future Features" section.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+# User Stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+I am a Motorbike fan and have been for many years. I use my motorbike for leasure only. As a user of this platform I aim to find likeminded biker fans to arrange weekend get togethers and go for short trips around the countryside. I believe in safety by numbers and by arranging trips in groups, we can experience memorable trips whilst supporting eachother along the way. This is a great platform for meeting other like minded bikers looking for similar expereinces. By signing in to this website I am automatically shown memebers near me allowing me to "buddy up" with them.
 
-To log into the Heroku toolbelt CLI:
+* I will expect to find a navigation bar where I will identify the website logo and some login and registration functionalities. I will also see a bar menu which will include links to all the web pages so that I will not spend time jumping from one page to the next in order to find the information I require.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* In the middle of the page I will see a "hero" image of bikers having fun riding their bikes. There will be 4 or 5 different images in a loop which will add to my user experience of the home page.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* Below the hero image I will identify card tiles with existing members' reviews of the site and their experiences so far.
 
-------
+* At the bottom of the page I will see the copyright icon together with some buttons with links allowing me to navigate to other pages for more details as required.
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Features
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### _**The Home Page**_
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The first release version of this website will include a home page which will contain a navigation bar at the top, containing the website Logo floated to the left and to the right will include the functionality for the user to register and to login. There will also be a Home page button and a menu bar which will include all options in all the pages of this website, allowing the user to switch directly to a desired section without needing to navigate to the required page.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+This home page will include "Hero" images of bikers, which will change every 15-20 seconds, (max 5 different images in a loop).
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Below the hero images, the viewers will see "Card Tiles" which will display members' reviews of their experiences with us and with events they have attended.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+At the bottom of the page the user will identify the footer section which will contain the motorbikebuddy copyright icon to the left together with links to our social networking sites including Twiiter, Facebook and Instagram. To the right of the footer section will be button feature allowing the user to navigate to the respective information on other pages.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The Top navigation bar and the footer sections will be replicated on all pages of this website.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+See "Future Features" in section 4 for whats to come in future releases.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### _**About Us / Legal Terms Page**_
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+This page will be split into two sections which will contain a brief description of who we are as owners of this platform and what services we aim to provide our users.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+This will also be acompanied by our Legal Terms & Conditions on the same page.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+See "Future Features" in section 4 for whats to come in future releases.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### _**Contact Us Page**_
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+The contact Us page will allow users to reach out to us for any queries or concerns.
 
-------
+This will be available using a "forms" feature where the user will be encouraged to fill in some 'required' basic information which will allow us to revert back to the user, using their preferred method (email or phone call),  with relevant responses.
 
-## FAQ about the uptime script
+See "Future Features" in section 4 for whats to come in future releases.
 
-**Why have you added this script?**
+### _**Confirmation Page**_
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+This page will provide the user who has raised a query in our "Contact Us" page, with a message of thanks for reaching out to us and with further comments to arrange a response back to the user dependent on the contact method chosen.
 
-**How will this affect me?**
+# Future Features
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### _**The Home Page**_
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+In furture releases we aim to add a search feature to the home page, allowing the user to search for members near-by, potentially with a dotted map view illustrating location of those members.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+We will also be adding a feature for members and hosts to organise events, weather that be racing events, touring holidays and large gatherings such as live gigs. 
+Once the event is launch, members will be able to sign up but also, if a member is undecided, they will have the option of selecting a "show your interest" button, whereby the host will receive notifications of these member enabling them to send updates of their respective events to interested buddies.
 
-**So….?**
+### _**About Us / Legal Terms Page**_
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+Future releases will include a link to "FAQs", Frequently Asked Questions.
 
-**Can I opt out?**
+### _**Contact Us Page**_
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Future releases will include a link to "FAQs", Frequently Asked Questions.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### _**Confirmation Page**_
 
-**Anything more?**
+Future releases will include a link to "FAQs", Frequently Asked Questions.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+# Typography and Color schemes
 
----
+# Testing
 
-Happy coding!
+### _**Validator Testing**_
+
+HTML
+No errors were returned when passing through the official W3C validator
+
+CSS
+No errors were found when passing through the official (Jigsaw) validator
+
+# Unfixed Bugs
+
+# Deployment
+
+# Credits
+
+### _**Content**_
+
+### _**Media**_
+
+# Wireframes
+
+### _**Home Page**_
+
+![Home Page](docs/wireframes/home-page.jpg)
+
+### _**Login Page**_
+
+![Login Page](docs/wireframes/login-page.jpg)
+
+### _**About Us & Legal Terms Page**_
+
+![About Us Page](docs/wireframes/about-us-legal-terms-page.jpg)
+
+### _**Contact Us Page**_
+
+![Contact Us Page](docs/wireframes/contact-us-page.jpg)
+
+### _**Confirmation Page**_
+
+![Confirmation Page](docs/wireframes/confirmation-page.jpg)
