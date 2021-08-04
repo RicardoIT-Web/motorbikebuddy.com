@@ -65,15 +65,15 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     align-content: center;
 }
 
 .item {
     order: 4;
-    flex-grow: 4;
-    flex-shrink: 2;
+    flex-grow: 1;
+    flex-shrink: 0;
     flex-basis: auto;
+    align-items: center;
 }
 
 #event1 {
