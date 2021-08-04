@@ -13,6 +13,10 @@ body {
 }
 /* nav bar */
 
+#barmenus, #mblogo {
+    line-height: 75px;
+}
+
 #mblogo {
     float: left;
     width: 350px;
@@ -21,14 +25,10 @@ body {
 }
 
 #barmenus {
-    font-size: auto;
+    font-size: 30px;
     letter-spacing: 5px;
     margin: 15px;
     align-items: center;
-}
-
-#barmenus, #mblogo {
-    line-height: 75px;
 }
 
 #barmenus li {
@@ -150,4 +150,25 @@ body {
 #event4 img {
     width: 100%;
     height: auto;
+}
+
+/* footer */
+
+footer {
+    height: 300px;
+}
+
+.footer-links {
+    text-align: center;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links i {
+    font-size: 200%;
+    margin: 2%;
+    padding: 5%;
+    color: rgb(221, 93, 8);
 }
