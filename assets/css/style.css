@@ -1,192 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
 
-* {
+body {
     margin: 0;
     padding: 0;
-    border: none;
-}
-
-body {
+    height: 100vh;
     font-family: Open-sans, Montserrat;
     color: rgb(245, 100, 3);
-    font-weight: 500;
 }
-
-h1 {
-    margin-left: 20px;
-}
-
-/* nav bar menu link */
-
-
-/* nav bar */
-
-#barmenus, #mblogo {
-    line-height: 75px;
-}
-
-#mblogo {
-    float: left;
-    width: 350px;
-    height: 100px;
-    margin: 15px;
-}
-
-#barmenus {
-    font-size: 30px;
-    letter-spacing: 5px;
-    margin: 15px;
-    align-items: center;
-}
-
-#barmenus li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#barmenus a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#barmenus a:hover {
-    border-bottom: 1px solid rgb(221, 93, 8)
-}
-
-.active {
-    border-bottom: 1px solid rgb(221, 93, 8)
-}
-
-/* Hero Image */
 
 #hero-image {
-    height: 1000px;
-    width: 100%;
-    background: url(../images/Photo\ 4.jpg) no-repeat center center /cover;
+    background-image: url('/assets/images/photo4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
-/* events tiles */
-
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+.logo img {
+    height: 100px;
+    width: auto;
 }
-
-.item {
-    order: 4;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: auto;
-    align-items: center;
-}
-
-#event1 {
-    width: 100%;
-    overflow: hidden;
-    color: white;
-    background-color: rgba(228, 94, 5, 0.5);
-    width: 20%;
-    height: 300px;
-    float: center;
-    padding: 0 0 0 4px;
-    border: 10px solid transparent;
-    position: relative;
-    text-align: center;
-}
-
-#event1 img {
-    width: 100%;
-    height: auto;
-}
-
-#event2 {
-    width: 100%;
-    overflow: hidden;
-    color: white;
-    background-color: rgba(228, 94, 5, 0.5);
-    width: 20%;
-    height: 300px;
-    float: center;
-    padding: 0 0 0 4px;
-    border: 10px solid transparent;
-    position: relative;
-    text-align: center;
-}
-
-#event2 img {
-    width: 100%;
-    height: auto;
-}
-
-#event3 {
-    width: 100%;
-    overflow: hidden;
-    color: white;
-    background-color: rgba(228, 94, 5, 0.5);
-    width: 20%;
-    height: 300px;
-    float: center;
-    padding: 0 0 0 4px;
-    border: 10px solid transparent;
-    position: relative;
-    text-align: center;
-}
-
-#event3 img {
-    width: 100%;
-    height: auto;
-}
-
-#event4 {
-    width: 100%;
-    overflow: hidden;
-    color: white;
-    background-color: rgba(228, 94, 5, 0.5);
-    width: 20%;
-    height: 300px;
-    float: center;
-    padding: 0 0 0 4px;
-    border: 10px solid transparent;
-    position: relative;
-    text-align: center;
-}
-
-#event4 img {
-    width: 100%;
-    height: auto;
-}
-
-/* Other Platforms */ 
-
-#external-links li {
-    margin-left: 20px;
-    list-style-type: none;
-    text-decoration: none;
-    color: inherit;
-}
-
-/* footer */
-
-footer {
-    height: 50px;
-}
-
-.footer-links {
-    text-align: center;
-}
-
-.footer-links li {
-    display: inline;
-}
-
-.footer-links i {
-    font-size: 200%;
-    margin: 2%;
-    padding: 5%;
-    color: rgb(221, 93, 8);
-}
-
-/* Login Page Styling */
