@@ -56,7 +56,6 @@ body {
 }
 
 #container {
-
     height: 300vh;
     display: flex;
     justify-content: space-around;
@@ -88,4 +87,25 @@ body {
 .item4 img {
     height: 300px;
     padding: 5px;
+}
+
+/* footer */
+
+#footer-links {
+    height: 50px;
+}
+
+.footer-links {
+    text-align: center;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links i {
+    font-size: 200%;
+    margin: 2%;
+    padding: 5%;
+    color: rgb(221, 93, 8);
 }
