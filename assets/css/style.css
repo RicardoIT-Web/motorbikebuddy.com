@@ -56,8 +56,36 @@ body {
 }
 
 #container {
+
+    height: 300vh;
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
+}
 
+#container .info {
+    background-color: hsl(27, 98%, 52%);
+    text-align: center;
+    color: rgb(51, 47, 47);
+    border: transparent;
+    opacity: .5;
+}
+
+.item1 img {
+    height: 300px;
+    padding: 5px;
+}
+
+.item2 img {
+    height: 300px;
+    padding: 5px;
+}
+
+.item3 img {
+    height: 300px;
+    padding: 5px;
+}
+
+.item4 img {
+    height: 300px;
+    padding: 5px;
 }
