@@ -6,19 +6,14 @@
     font-family: 'Montserrat', Open-Sans;
 }
 
-.wrapper {
-    width: auto;
-    margin: auto;
-}
-
 #logo img {
     height: 100px;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-left: 5px;
 }
 
 body {
-    background: linear-gradient(rgba(161, 160, 160, 0.6),rgba(161, 160, 160, 0.6)), url('/assets/images/photo10.jpg');
+    background: linear-gradient(rgba(161, 160, 160, 0.5),rgba(161, 160, 160, 0.5)), url('/assets/images/photo3.jpg');
     height: 120vh;
     background-size: cover;
     background-position: center center;
@@ -26,27 +21,28 @@ body {
     position: relative;
 }
 
-.navbar {
+#navbar {
+    font-size: 25px;
+    letter-spacing: 4px;
     float: right;
-    list-style: none;
-    padding-right: 5px;
-    text-transform: uppercase;
+    margin-bottom: 250px;
 
 }
-.navbar li {
+#navbar li {
+    list-style-type: none;
     display: inline-block;
 }
 
-.navbar li a {
+#navbar li a {
     color: hsl(27, 98%, 52%);
     text-decoration: none;
-    padding: 20px 20px;
-    font-size: 30px;
+    padding: 20px 30px;
 }
 
-.navbar li a:hover {
+#navbar li a:hover {
     background: rgb(245, 194, 164);
     color: white;
+    border-radius: 35%;
 }
 
 .join-us {
