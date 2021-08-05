@@ -12,15 +12,14 @@
 }
 
 #logo img {
-    width: auto;
     height: 100px;
     padding-top: 5px;
     padding-left: 5px;
 }
 
 body {
-    background: linear-gradient(rgba(161, 160, 160, 0.6),rgba(161, 160, 160, 0.6)), url('/assets/images/photo7.jpg');
-    height: 100vh;
+    background: linear-gradient(rgba(161, 160, 160, 0.6),rgba(161, 160, 160, 0.6)), url('/assets/images/photo10.jpg');
+    height: 120vh;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -29,11 +28,11 @@ body {
 
 .navbar {
     float: right;
-    position: relative;
     list-style: none;
     padding-right: 5px;
-}
+    text-transform: uppercase;
 
+}
 .navbar li {
     display: inline-block;
 }
@@ -41,7 +40,7 @@ body {
 .navbar li a {
     color: hsl(27, 98%, 52%);
     text-decoration: none;
-    padding: 0 20px;
+    padding: 20px 20px;
     font-size: 30px;
 }
 
@@ -53,18 +52,19 @@ body {
 .join-us {
     color:hsl(27, 98%, 52%);
     margin-left: 10px;
+    height: 40vh;
 }
 
 #container {
-    height: 300vh;
     display: flex;
     justify-content: space-around;
+    height: 30vh;
 }
 
 #container .info {
     background-color: hsl(27, 98%, 52%);
     text-align: center;
-    color: rgb(51, 47, 47);
+    color: rgb(7, 7, 7);
     border: transparent;
     opacity: .5;
 }
@@ -72,21 +72,25 @@ body {
 .item1 img {
     height: 300px;
     padding: 5px;
+    opacity: .7;
 }
 
 .item2 img {
     height: 300px;
     padding: 5px;
+    opacity: .7;
 }
 
 .item3 img {
     height: 300px;
     padding: 5px;
+    opacity: .7;
 }
 
 .item4 img {
     height: 300px;
     padding: 5px;
+    opacity: .7;
 }
 
 /* footer */
