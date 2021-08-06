@@ -71,10 +71,18 @@ body {
     opacity: .7;
 }
 
+.item1 img:hover {
+    opacity: 9;
+}
+
 .item2 img {
     height: 300px;
     padding-top: 15px;
     opacity: .7;
+}
+
+.item2 img:hover {
+    opacity: 9;
 }
 
 .item3 img {
@@ -83,10 +91,18 @@ body {
     opacity: .7;
 }
 
+.item3 img:hover {
+    opacity: 9;
+}
+
 .item4 img {
     height: 300px;
     padding-top: 15px;
     opacity: .7;
+}
+
+.item4 img:hover {
+    opacity: 9;
 }
 
 /* footer */
