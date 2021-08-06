@@ -48,13 +48,13 @@ body {
 .join-us {
     color:hsl(27, 98%, 52%);
     margin-left: 10px;
-    height: 40vh;
+    height: 35vh;
 }
 
 #container {
     display: flex;
     justify-content: space-around;
-    height: 30vh;
+    height: 35vh;
 }
 
 #container .info {
@@ -63,6 +63,10 @@ body {
     color: rgb(7, 7, 7);
     border: transparent;
     opacity: .5;
+}
+
+#container .info:hover {
+    color: white
 }
 
 .item1 img {
@@ -124,4 +128,8 @@ body {
     margin: 2%;
     padding: 5%;
     color: rgb(221, 93, 8);
+}
+
+.footer-links i:hover {
+    color: blue;
 }
