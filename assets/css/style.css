@@ -48,7 +48,9 @@ body {
 .join-us {
     color:hsl(27, 98%, 52%);
     margin-left: 10px;
-    height: 110vh;
+    height: 75vh;
+    text-align: center;
+    padding-top: 350px;
 }
 
 #container {
@@ -59,7 +61,7 @@ body {
 
 #container .info {
     background-color: hsl(27, 98%, 52%);
-    text-align: center;
+    text-align:left;
     color: rgb(7, 7, 7);
     border: transparent;
     opacity: .5;
@@ -111,7 +113,7 @@ body {
 
 /* footer */
 
-.footer-links {
+.footer-links a {
     text-align: center;
 }
 
