@@ -36,13 +36,13 @@ body {
 #navbar li a {
     color: hsl(27, 98%, 52%);
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 20px 60px;
 }
 
 #navbar li a:hover {
     background: rgb(245, 194, 164);
-    color: white;
-    border-radius: 35%;
+    color: black;
+    border-radius: 40%;
 }
 
 .join-us {
