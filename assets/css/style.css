@@ -13,7 +13,7 @@
 }
 
 body {
-    background: linear-gradient(rgba(161, 160, 160, 0.5),rgba(161, 160, 160, 0.5)), url('/assets/images/photo10.jpg');
+    background: linear-gradient(rgba(161, 160, 160, 0.5),rgba(161, 160, 160, 0.5)), url('/assets/images/photo4.jpg');
     height: 120vh;
     background-size: cover;
     background-position: center center;
@@ -36,7 +36,7 @@ body {
 #navbar li a {
     color: hsl(27, 98%, 52%);
     text-decoration: none;
-    padding: 20px 60px;
+    padding: 20px 80px;
 }
 
 #navbar li a:hover {
@@ -48,7 +48,7 @@ body {
 .join-us {
     color:hsl(27, 98%, 52%);
     margin-left: 10px;
-    height: 35vh;
+    height: 110vh;
 }
 
 #container {
@@ -111,10 +111,6 @@ body {
 
 /* footer */
 
-#footer-links {
-    height: 50px;
-}
-
 .footer-links {
     text-align: center;
 }
@@ -125,8 +121,8 @@ body {
 
 .footer-links i {
     font-size: 200%;
-    margin: 2%;
-    padding: 5%;
+    margin: 5%;
+    margin-top: 7%;
     color: rgb(221, 93, 8);
 }
 
