@@ -2,7 +2,6 @@
 
 * {
     margin: 0;
-    padding: 0;
     font-family: 'Montserrat', Open-Sans;
 }
 
@@ -11,20 +10,28 @@
     float: left;
 }
 #navbar {
-    Padding: 15px 0;
+    Padding: 5px 0;
     text-align: center;
 }
 
 #navbar a {
     float: right;
+    top: 30px;
     color: #f2f2f2;
-    text-align: center;
     position: relative;
     padding: 0 60px;
     text-decoration: none;
     font-size: 25px;
     background-color:hsl(27, 98%, 52%);
-    
+}
+
+#navbar a:hover {
+    background-color: rgb(245, 194, 164);
+    color: black;
+}
+
+#navbar a.active {
+    background-color: gray;
 }
 
 .bgimage {
@@ -32,14 +39,12 @@
     background-position: center center;
     background-repeat: no-repeat;
     opacity: .7;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+    height: 120vh;
 }
 
 .join-us {
     color:hsl(27, 98%, 52%);
-    height: 75vh;
+    height: 60vh;
     text-align: center;
     padding-top: 150px;
 }
@@ -144,7 +149,9 @@
     color: rgb(66,103,178);
 }
 
-
+.instagram i:hover {
+    color: rgb(138, 58, 185);
+}
 
 /* media query for larger to medium screens */
 
