@@ -6,51 +6,42 @@
     font-family: 'Montserrat', Open-Sans;
 }
 
-#logo {
-    height: 100px;
-    padding-top: 10px;
-    padding-left: 5px;
+#navbar img {
+    height: 80px;
+    float: left;
+}
+#navbar {
+    Padding: 15px 0;
+    text-align: center;
+}
+
+#navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    position: relative;
+    padding: 0 60px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color:hsl(27, 98%, 52%);
+    
 }
 
 .bgimage {
-    background: linear-gradient(rgba(201, 199, 199, 0.7),rgba(201, 199, 199, 0.7)), url('/assets/images/photo4.jpg');
-    height: 120vh;
-    background-size: cover;
+    background: url('/assets/images/photo4.jpg');
     background-position: center center;
     background-repeat: no-repeat;
-    position: relative;
-}
-
-#navbar {
-    font-size: 25px;
-    letter-spacing: 4px;
-    float: right;
-    margin-top: 50px;
-
-}
-#navbar li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-#navbar li a {
-    color: hsl(27, 98%, 52%);
-    text-decoration: none;
-    padding: 20px 80px;
-}
-
-#navbar li a:hover {
-    background: rgb(245, 194, 164);
-    color: black;
-    border-radius: 40%;
+    opacity: .7;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .join-us {
     color:hsl(27, 98%, 52%);
-    margin-left: 10px;
     height: 75vh;
     text-align: center;
-    padding-top: 350px;
+    padding-top: 150px;
 }
 
 #linktoevents {
@@ -141,9 +132,19 @@
     color: rgb(221, 93, 8);
 }
 
-.footer-links i:hover {
+.copyright i:hover {
     color: blue;
 }
+
+.twitter i:hover {
+    color: rgb(29,161,242);
+}
+
+.facebook i:hover {
+    color: rgb(66,103,178);
+}
+
+
 
 /* media query for larger to medium screens */
 
@@ -189,16 +190,9 @@
 
 /* login page styling */
 
-.hpimage img {
-    width:100%;
+.lpimage img {
+    width:60%;
     height: 70vh;
     opacity: .4;
     margin-top: 2%;
-}
-
-#footer-linkslp {
-    margin-top: 0;
-    height: 0;
-    text-align: center;
-
 }
