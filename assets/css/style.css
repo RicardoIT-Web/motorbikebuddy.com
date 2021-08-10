@@ -55,7 +55,7 @@ h1 {
 
 #linktoevents {
     font-size: 30px;
-    color: hsl(27, 98%, 52%);
+    color: gray;
     text-decoration: none;
 }
 
@@ -66,10 +66,25 @@ h1 {
     font-size: 30px;
 }
 
+#linktotop {
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+}
+
+#linktotop:hover {
+    color: black;
+    font-size: 20px;
+    background: rgb(245, 194, 164);
+    border-radius: 40%;
+
+}
+
 #container {
     display: flex;
     justify-content: space-around;
-    height: 35vh;
+    height: 55vh;
 }
 
 #container .info {
