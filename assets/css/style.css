@@ -218,7 +218,7 @@ h1 {
 
 /* login form styling Love Running Sample */
 
-.form-section {
+.form-section1 {
     clear:left;
     background: url('/assets/images/photo15.jpg');
     background-size: cover;
@@ -257,7 +257,7 @@ h1 {
 
 .kickstart-button {
     border-radius: 5%;
-    margin-top: 2px;
+    margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
     font-size: 100%;
@@ -271,13 +271,21 @@ h1 {
     background-color: white;
 }
 
+.clear-button {
+    top: 10px;
+    box-shadow: 0 8px 16px 0 rgba(235, 96, 4, 0.2), 0 6px 20px 0 rgba(247, 100, 2, 0.19);;
+    color: red;
+}
+
 /* about us page styling */
 
 #aboutuspage {
-    width: 100%;
+    width: 45%;
     height: auto;
     padding-top: 70px;
-    padding-left: 20px;
+    padding-left: 50px;
+    display: inline-block;
+
 }
 
 #aboutuspage h2 {
@@ -285,9 +293,30 @@ h1 {
 }
 
 #aboutuspage p {
-    width: 50%;
     text-align: justify;
     color: gray;
 }
 
+#aboutusimg {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    
+}
 
+/* Contact Us page Styling */
+
+.form-section2 {
+    clear:left;
+    background: url('/assets/images/photo10.jpg');
+    margin-top: 50px;
+    width: 200;
+    height: 600px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;  
+}
+
+#query {
+    display: block;
+}
