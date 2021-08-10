@@ -273,7 +273,6 @@ h1 {
 
 .clear-button {
     top: 10px;
-    box-shadow: 0 8px 16px 0 rgba(235, 96, 4, 0.2), 0 6px 20px 0 rgba(247, 100, 2, 0.19);;
     color: red;
 }
 
@@ -315,6 +314,10 @@ h1 {
     background-size:contain;
     background-repeat: no-repeat;
     background-position: right;  
+}
+
+.form-section2 h2 {
+    color: rgb(221, 93, 8);
 }
 
 #query {
