@@ -5,6 +5,8 @@
     font-family: 'Montserrat', Open-Sans;
 }
 
+/* home page */
+
 #navbar img {
     height: 80px;
     float: left;
@@ -268,3 +270,24 @@ h1 {
 .kickstart-button:hover {
     background-color: white;
 }
+
+/* about us page styling */
+
+#aboutuspage {
+    width: 100%;
+    height: auto;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+#aboutuspage h2 {
+    color: rgb(221, 93, 8);
+}
+
+#aboutuspage p {
+    width: 50%;
+    text-align: justify;
+    color: gray;
+}
+
+
