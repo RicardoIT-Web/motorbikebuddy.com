@@ -94,11 +94,19 @@ h1 {
     text-align:left;
     color: rgb(7, 7, 7);
     border: transparent;
-    opacity: .5;
+    opacity: .8;
 }
 
 #container .info:hover {
     color: white
+}
+
+#containerfooter {
+    text-align: center;
+    text-decoration: none;
+    padding-top: 15px;
+    height: 4vh;
+    background-color: hsl(27, 98%, 52%);
 }
 
 .item1 img {
@@ -216,7 +224,7 @@ h1 {
     }
 }
 
-/* login form styling Love Running Sample */
+/* login form styling Love Running Sample with minor changes*/
 
 .form-section1 {
     clear:left;
@@ -232,12 +240,12 @@ h1 {
     background: transparent;
     max-width: 400px;
     position:absolute;
-    left: 10%;
-    padding: 30px;
+    padding-left: 250px;
+    padding-top: 80px;
 }
 
 .login-form h2 {
-    color: rgb(44, 43, 43);
+    color: rgb(221, 93, 8);
     margin-bottom: 20px;
 }
 
@@ -326,3 +334,23 @@ h1 {
     text-align: center;
     padding-top: 50px;
 }
+
+/* Confirmation Page Styling */
+
+.message1 h2{
+    text-align: center;
+    color: rgb(221, 93, 8);
+    padding-top: 150px;
+}
+
+.message1 h3{
+    text-align: center;
+    color: gray;
+    padding-top: 150px;
+}
+
+.backtohome {
+    text-align: center;
+    padding-top: 200px;
+}
+
