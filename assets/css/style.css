@@ -5,18 +5,25 @@
     font-family: 'Montserrat', Open-Sans;
 }
 
-/* media query for logos w3schools.com */
-
-@media only screen and (max-width: 768px) {
-    #navbar img {
-        content:url('/assets/images/motorbikebuddy-logo2.jpg');
-        padding-left: 5px;
-    }
+body {
+    display: flex;
+    flex-direction: column;
 }
 
-@media only screen and (min-width: 768px) {
+header, footer {
+    height: 100px;
+    padding: 5px;
+}
+
+main {
+    flex-grow: 2;
+}
+
+/* media query for logos w3schools.com */
+
+@media only screen and (max-width: 1225px) {
     #navbar img {
-        content:url('/assets/images/motorbikebuddy-logo.jpg');
+        content:url('/assets/images/motorbikebuddy-logo2.jpg');
         padding-left: 5px;
     }
 }
@@ -28,33 +35,17 @@
     float: left;
 }
 
-/* media query for logos w3schools.com */
+/* media query for navbar w3schools.com */
 
-@media only screen and (max-width: 600px) {
-    #navbar img {
-        content:url('/assets/images/motorbikebuddy-logo2.jpg');
-        padding-left: 5px;
+@media only screen and (max-width: 1225px) {
+    #navbar a {
+        width: 50%;
     }
 }
 
-@media only screen and (max-width: 768px) {
-    #navbar img {
-        content:url('/assets/images/motorbikebuddy-logo2.jpg');
-        padding-left: 5px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    #navbar img {
-        content:url('/assets/images/motorbikebuddy-logo.jpg');
-        padding-left: 5px;
-    }
-}
 
 #navbar {
-    Padding: 5px 0;
     text-align: center;
-    min-height: 100px;
 }
 
 #navbar a {
@@ -77,25 +68,20 @@
     background-color: gray;
 }
 
-/* media query for for navbar w3schools.com */
-
-@media only screen and (max-width: 768px) {
-
-}
-
-@media only screen and (min-width: 768px){
-
-}
-
 
 #bgimage {
     background: url('/assets/images/photo4.jpg');
-    width: 100%;
-    max-width: 100%;
     height: 100vh;
     background-position: center center;
     background-repeat: no-repeat;
     opacity: .7; 
+}
+
+@media only screen and (max-width: 768px) {
+    #bgimage {
+        width: 100%;
+        height: 150vh;
+    }
 }
 
 h1 {
@@ -106,6 +92,12 @@ h1 {
     color:hsl(27, 98%, 52%);
     text-align: center;
     padding-top: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+    section h1 {
+        height: 250vh;
+    }
 }
 
 #linktoevents {
@@ -121,25 +113,20 @@ h1 {
     font-size: 30px;
 }
 
-#linktotop {
-    font-size: 20px;
-    color: gray;
-    text-decoration: none;
-    text-align: center;
-}
-
-#linktotop:hover {
-    color: black;
-    font-size: 20px;
-    background: rgb(245, 194, 164);
-    border-radius: 40%;
-
-}
-
 #container {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     height: 55vh;
+}
+
+@media only screen and (max-width: 768px) {
+    #container {
+        flex-direction: column;
+        text-align: center;
+        float: none;
+        height: 170vh;
+    }
 }
 
 #container .info {
@@ -148,6 +135,7 @@ h1 {
     color: rgb(7, 7, 7);
     border: transparent;
     opacity: .8;
+    float: none;
 }
 
 #container .info:hover {
@@ -162,10 +150,22 @@ h1 {
     background-color: hsl(27, 98%, 52%);
 }
 
+@media only screen and (max-width: 768px) {
+    #containerfooter {
+        margin-bottom: 2rem;
+    }
+}
+
 .item1 img {
     height: 300px;
-    padding-top: 15px;
+    padding-top: 5px;
     opacity: .7;
+}
+
+@media only screen and (max-width: 768px) {
+    .item1 img {
+        width: 100%;
+    }
 }
 
 .item1 img:hover {
@@ -174,8 +174,14 @@ h1 {
 
 .item2 img {
     height: 300px;
-    padding-top: 15px;
+    padding-top: 5px;
     opacity: .7;
+}
+
+@media only screen and (max-width: 768px) {
+    .item2 img {
+        width: 100%;
+    }
 }
 
 .item2 img:hover {
@@ -184,8 +190,14 @@ h1 {
 
 .item3 img {
     height: 300px;
-    padding-top: 15px;
+    padding-top: 5px;
     opacity: .7;
+}
+
+@media only screen and (max-width: 768px) {
+    .item3 img {
+        width: 100%;
+    }
 }
 
 .item3 img:hover {
@@ -194,15 +206,55 @@ h1 {
 
 .item4 img {
     height: 300px;
-    padding-top: 15px;
+    padding-top: 5px;
     opacity: .7;
+}
+
+@media only screen and (max-width: 768px) {
+    .item4 img {
+        width: 100%;
+    }
 }
 
 .item4 img:hover {
     opacity: 9;
 }
 
+#linktotop {
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    #linktotop {
+        margin-top: 350px;
+    }
+}
+
+#linktotop:hover {
+    color: black;
+    font-size: 20px;
+    background: rgb(245, 194, 164);
+    border-radius: 40%;
+
+}
+
+
+
 /* footer */
+
+#footerfix {
+    height: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        margin-top: 80%;
+        text-align: center;
+    }
+}
 
 .footer-links a {
     text-align: center;
