@@ -28,8 +28,8 @@ header {
 @media only screen and (max-width: 1225px) {
     #navbar img {
         content:url('/assets/images/motorbikebuddy-logo2.jpg');
-        padding-left: 5px;
         text-align: center;
+        padding: 15px 5px;
     }
 }
 
@@ -86,7 +86,6 @@ header {
 @media only screen and (max-width: 1000px) {
     #bgimage {
         width: 100%;
-        padding-top: 150px;
         height: 150vh;
     }
 }
@@ -274,6 +273,13 @@ h1 {
     color: blue;
 }
 
+@media only screen and (max-width: 768px) {
+    .copyright i {
+        text-align: center;
+        font-size: smaller;
+    }
+}
+
 .twitter i:hover {
     color: rgb(29,161,242);
 }
@@ -297,6 +303,18 @@ h1 {
     height: 750px;
 }
 
+@media only screen and (max-width: 768px) {
+    .form-section1 {
+        clear:left;
+        background: url('/assets/images/photo15.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 250px;
+    }
+}
+
+
 .login-form {
     margin: 150px 10% 0 0;
     color: rgb(221, 93, 8);
@@ -305,6 +323,12 @@ h1 {
     position:absolute;
     padding-left: 250px;
     padding-top: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+    .login-form {
+        padding-left: 50px;
+    }
 }
 
 .login-form h2 {
