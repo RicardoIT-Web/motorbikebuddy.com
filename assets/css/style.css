@@ -10,14 +10,18 @@ body {
     flex-direction: column;
 }
 
-header, footer {
+header {
     height: 100px;
     padding: 5px;
 }
 
-main {
-    flex-grow: 1;
+@media only screen and (max-width: 1225px) {
+    header {
+        height: 250px;
+        padding: 5px;
+    }
 }
+
 
 /* media query for logos w3schools.com */
 
@@ -73,7 +77,7 @@ main {
 
 #bgimage {
     background: url('/assets/images/photo4.jpg');
-    height: 100vh;
+    height: 90vh;
     background-position: center center;
     background-repeat: no-repeat;
     opacity: .7; 
@@ -81,7 +85,6 @@ main {
 
 @media only screen and (max-width: 1000px) {
     #bgimage {
-
         width: 100%;
         padding-top: 150px;
         height: 150vh;
@@ -98,20 +101,8 @@ h1 {
     padding-top: 50px;
 }
 
-@media only screen and (max-width: 1000px) {
-    section h1 {
-        padding-top: 50px;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    section h1 {
-        padding-top: 100px;
-    }
-}
-
 #linktoevents {
-    font-size: auto;
+    font-size: large;
     color: gray;
     text-decoration: none;
 }
@@ -241,6 +232,9 @@ h1 {
     #linktotop {
         height: 200vh;
     }
+    #linktop {
+        padding-top: 280px;
+    }
 }
 
 #linktotop:hover {
@@ -255,13 +249,8 @@ h1 {
 
 /* footer */
 
-#footerfix {
-    height: 100px;
-}
-
 @media only screen and (max-width: 768px) {
     footer {
-        margin-top: 80%;
         text-align: center;
     }
 }
