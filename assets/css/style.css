@@ -16,7 +16,7 @@ header, footer {
 }
 
 main {
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 /* media query for logos w3schools.com */
@@ -25,6 +25,7 @@ main {
     #navbar img {
         content:url('/assets/images/motorbikebuddy-logo2.jpg');
         padding-left: 5px;
+        text-align: center;
     }
 }
 
@@ -39,10 +40,11 @@ main {
 
 @media only screen and (max-width: 1225px) {
     #navbar a {
-        width: 50%;
-    }
+        width: 25%;
+        position: static;
+        position: inline-block;
+        }
 }
-
 
 #navbar {
     text-align: center;
@@ -50,12 +52,12 @@ main {
 
 #navbar a {
     float: right;
-    top: 30px;
+    top: 15px;
     color: #f2f2f2;
-    position: relative;
-    padding: 0 60px;
+    position:relative;
+    padding: 20px 60px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: auto;
     background-color:hsl(27, 98%, 52%);
 }
 
@@ -77,9 +79,11 @@ main {
     opacity: .7; 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     #bgimage {
+
         width: 100%;
+        padding-top: 150px;
         height: 150vh;
     }
 }
@@ -91,17 +95,23 @@ h1 {
 .join-us {
     color:hsl(27, 98%, 52%);
     text-align: center;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     section h1 {
-        height: 250vh;
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    section h1 {
+        padding-top: 100px;
     }
 }
 
 #linktoevents {
-    font-size: 30px;
+    font-size: auto;
     color: gray;
     text-decoration: none;
 }
@@ -110,7 +120,7 @@ h1 {
     background: rgb(245, 194, 164);
     color: black;
     border-radius: 40%;
-    font-size: 30px;
+    font-size: auto;
 }
 
 #container {
@@ -229,7 +239,7 @@ h1 {
 
 @media only screen and (max-width: 768px) {
     #linktotop {
-        margin-top: 350px;
+        height: 200vh;
     }
 }
 
