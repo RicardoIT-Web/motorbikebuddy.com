@@ -327,7 +327,8 @@ h1 {
 
 @media only screen and (max-width: 768px) {
     .login-form {
-        padding-left: 50px;
+        padding-left: 40px;
+        padding-top: 100px;
     }
 }
 
@@ -369,6 +370,12 @@ h1 {
 .clear-button {
     top: 10px;
     color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    #positionmobile {
+        padding-top: 220px;
+    }
 }
 
 /* about us page styling */
