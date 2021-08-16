@@ -279,7 +279,6 @@ h1 {
     display: inline-block;
     width: 50%;
     text-align: center;
-    padding-left: 40px;
 }
 
 /* Contact Us page Styling */
@@ -325,31 +324,6 @@ h1 {
     padding-top: 200px;
 }
 
-
-/* media query for larger to medium screens */
-
-@media screen and (max-width: 1200px) {
-   
-    .join-us {
-        padding: 30px 0;
-        margin: 0;
-     }
-
-     #navbar li {
-         float: left;
-         font-size: 20px;
-         content: icon;
-     }
-
-     #container {
-         display: flex;
-     }
-
-     .footer-links li {
-        text-align:left;
-     }
-}
-
 /* Index page media query - w3schools.com */
 
 
@@ -374,10 +348,11 @@ h1 {
     }
 }
 
-@media only screen and (max-width: 290px) {
+@media only screen and (max-width: 280px) {
     header {
-        height: 370px;
-        padding: 5px;
+        height: 280px;
+        padding-left: 5px;
+        padding-right: 35px;
     }
 }
 
@@ -401,7 +376,31 @@ h1 {
         }
 }
 
+@media only screen and (max-width: 1024px) {
+    #navbar a {
+        width: 40%;
+        position: static;
+        position: inline-block;
+        }
+}
+
+@media only screen and (max-width: 540px) {
+    #navbar a {
+        width: 35%;
+        position: static;
+        position: inline-block;
+        }
+}
+
 /* media query for background image index page - w3schools.com */
+
+@media only screen and (max-width: 1024px) {
+    #bgimage {
+        width: 100%;
+        height: 50vh;
+        margin-top: 4rem;
+    }
+}
 
 @media only screen and (max-width: 1000px) {
     #bgimage {
@@ -414,14 +413,41 @@ h1 {
     #bgimage {
         width: 100%;
         height: 50vh;
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #bgimage {
+        width: 100%;
+        height: 40vh;
+
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #bgimage {
+        width: 100%;
+        height: 50vh;
+        margin-top: 6rem;
     }
 }
 
 /* media query for link to events */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
     #linktoevents {
         color: white;
+        font-size: x-large;
+
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #linktoevents {
+        color: white;
+        font-size: small;
+
     }
 }
 
@@ -490,6 +516,20 @@ h1 {
         float: none;
         height: 270vh;
         margin-top: 15rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    h1 {
+        font-size: 15px;
+        margin-bottom: 20px;
     }
 }
 
@@ -599,17 +639,52 @@ h1 {
     }
 }
 
-
 /* Login page media queries */
 
+@media only screen and (max-width: 1024px) {
+    .form-section1 {
+        clear:left;
+        background: url('/assets/images/photo15.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 550px;
+        margin-top: 4rem;
+    }
+}
+
 @media only screen and (max-width: 768px) {
+    .form-section1 {
+        clear:left;
+        background: url('/assets/images/photo15.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 250px;
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .form-section1 {
+        clear:left;
+        background: url('/assets/images/photo15.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
     .form-section1 {
         clear:left;
         background: url('/assets/images/photo15.jpg');
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        height: 250px;
+        height: 270px;
+        margin-top: 6rem;
     }
 }
 
@@ -624,16 +699,44 @@ h1 {
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    .login-form {
+        padding-left: 50px;
+
+
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .login-form {
+        padding-left: 50px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .login-form {
-        padding-left: 40px;
-        padding-top: 100px;
+        padding-left: 150px;
+        padding-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .login-form {
+        padding-left: 50px;
+        padding-top: 150px;
+
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #mobilefooterlinks {
+        padding-top: 370px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     #mobilefooterlinks {
-        padding-top: 220px;
+        padding-top: 390px;
     }
 }
 
@@ -643,11 +746,99 @@ h1 {
     }
 }
 
+@media only screen and (max-width: 280px) {
+    #mobilefooterlinks {
+        padding-top: 290px;
+    }
+}
+
 /* media query for about us page */
 
-@media only screen and (max-width: 1680px) {
+@media only screen and (max-width: 1250px) {
     #aboutusimg {
         display: block;
-        padding-top: 20px; 
+        padding-top: 20px;
+        padding-left: 300px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    #aboutuspage {
+        width: 75%;
+        height: auto;
+        padding-top: 70px;
+        padding-left: 150px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #aboutusimg {
+        display: block;
+        padding-top: 20px;
+        margin-left: -5rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #aboutuspage {
+        width: 75%;
+        height: auto;
+        padding-top: 70px;
+        padding-left: 120px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #aboutusimg {
+        display: block;
+        padding-top: 20px;
+        padding-left: 70px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #aboutuspage {
+        width: 60%;
+        height: auto;
+        padding-top: 70px;
+        padding-left: 0;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #aboutusimg {
+        display: block;
+        padding-top: 20px;
+        float:none;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #aboutuspage {
+        width: 80%;
+        height: auto;
+        padding-top: 70px;
+        padding-left: 50px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #aboutusimg {
+        display: block;
+        padding-top: 20px;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #aboutuspage {
+        width: 80%;
+        padding-top: 70px;
+        padding-left: 30px;
+        display: inline-block;
     }
 }
