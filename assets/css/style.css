@@ -11,8 +11,8 @@ body {
 }
 
 header {
-    height: 130px;
-    padding: 5px;
+    height: 100px;
+    padding: 10px;
 }
 
 /* home page */
@@ -87,7 +87,7 @@ h1 {
 
 #container .info {
     background-color: hsl(27, 98%, 52%);
-    text-align:left;
+    text-align:center;
     color: rgb(7, 7, 7);
     border: transparent;
     opacity: .8;
@@ -174,7 +174,6 @@ h1 {
 .footer-links i {
     font-size: 200%;
     margin: 5%;
-    margin-top: 7%;
     color: rgb(221, 93, 8);
 }
 
@@ -353,6 +352,14 @@ h1 {
 
 /* Index page media query - w3schools.com */
 
+
+@media only screen and (max-width: 1300px) {
+    header {
+        height: 200px;
+        padding: 5px;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     header {
         height: 200px;
@@ -430,13 +437,101 @@ h1 {
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    #container {
+        flex-direction: column;
+        text-align: center;
+        float: none;
+        height: 150vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #container {
+        flex-direction: column;
+        text-align: center;
+        float: none;
+        height: 200vh;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #container {
+        flex-direction: column;
+        text-align: center;
+        float: none;
+        height: 270vh;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #container {
+        flex-direction: column;
+        text-align: center;
+        float: none;
+        height: 290vh;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #container {
+        flex-direction: column;
+        text-align: center;
+        float: none;
+        height: 270vh;
+        margin-top: 8rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #container {
+        flex-direction: column;
+        text-align: center;
+        float: none;
+        height: 270vh;
+        margin-top: 15rem;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    h1 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    h1 {
+        font-size: 15px;
+    }
+}
+
 @media only screen and (max-width: 1650px) {
     #containerfooter {
         margin-bottom: 2rem;
     }
 }
 
+@media only screen and (min-width: 1024px) {
+    #containerfooter {
+        margin-bottom: 1rem;
+    }
+}
+
 @media only screen and (max-width: 1650px) {
+    .item1 img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
     .item1 img {
         width: 100%;
     }
@@ -444,17 +539,35 @@ h1 {
 
 @media only screen and (max-width: 1650px) {
     .item2 img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .item2 img {
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 1650px) {
     .item3 img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .item3 img {
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 1650px) {
+    .item4 img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
     .item4 img {
         width: 100%;
     }
@@ -482,7 +595,7 @@ h1 {
 @media only screen and (max-width: 768px) {
     .copyright i {
         text-align: center;
-        font-size: smaller;
+        font-size: small;
     }
 }
 
@@ -527,5 +640,14 @@ h1 {
 @media only screen and (max-width: 300px) {
     #mobilefooterlinks {
         padding-top: 250px;
+    }
+}
+
+/* media query for about us page */
+
+@media only screen and (max-width: 1680px) {
+    #aboutusimg {
+        display: block;
+        padding-top: 20px; 
     }
 }
