@@ -20,6 +20,7 @@ header {
 #navbar img {
     height: 80px;
     float: left;
+    padding: 0.5rem 0.5rem;
 }
 
 #navbar {
@@ -263,7 +264,6 @@ h1 {
     padding-top: 70px;
     padding-left: 50px;
     display: inline-block;
-
 }
 
 #aboutuspage h2 {
@@ -324,45 +324,24 @@ h1 {
     padding-top: 200px;
 }
 
-/* Index page media query - w3schools.com */
+/* media query general - w3schools.com */
 
 
 @media only screen and (max-width: 1300px) {
     header {
-        height: 200px;
-        padding: 5px;
+        height: 9rem;
+        padding: 0.5rem;
     }
 }
 
-@media only screen and (max-width: 1200px) {
-    header {
-        height: 200px;
-        padding: 5px;
-    }
-}
-
-@media only screen and (max-width: 670px) {
-    header {
-        height: 260px;
-        padding: 5px;
-    }
-}
-
-@media only screen and (max-width: 280px) {
-    header {
-        height: 280px;
-        padding-left: 5px;
-        padding-right: 35px;
-    }
-}
-
+/* Index page media query - w3schools.com */
 /* media query for logos w3schools.com */
 
-@media only screen and (max-width: 1225px) {
+@media only screen and (max-width: 1300px) {
     #navbar img {
         content:url('/assets/images/motorbikebuddy-logo2.jpg');
         text-align: center;
-        padding: 15px 5px;
+        padding: 0.5rem 0.5rem;
     }
 }
 
@@ -370,25 +349,10 @@ h1 {
 
 @media only screen and (max-width: 1300px) {
     #navbar a {
-        width: 25%;
+        width: 50%;
         position: static;
         position: inline-block;
-        }
-}
-
-@media only screen and (max-width: 1024px) {
-    #navbar a {
-        width: 40%;
-        position: static;
-        position: inline-block;
-        }
-}
-
-@media only screen and (max-width: 540px) {
-    #navbar a {
-        width: 35%;
-        position: static;
-        position: inline-block;
+        padding: 0.5rem;
         }
 }
 
@@ -397,8 +361,8 @@ h1 {
 @media only screen and (max-width: 1024px) {
     #bgimage {
         width: 100%;
-        height: 50vh;
-        margin-top: 4rem;
+        height: 60vh;
+        margin-top: 1rem;
     }
 }
 
@@ -430,6 +394,15 @@ h1 {
         width: 100%;
         height: 50vh;
         margin-top: 6rem;
+    }
+}
+
+/* media query for Joi Us */
+
+@media only screen and (max-width: 1024px) {
+    .join-us {
+        padding-top: 3rem;
+
     }
 }
 
@@ -468,7 +441,7 @@ h1 {
         flex-direction: column;
         text-align: center;
         float: none;
-        height: 150vh;
+        height: 250vh;
     }
 }
 
@@ -636,6 +609,12 @@ h1 {
     .copyright i {
         text-align: center;
         font-size: small;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    ul.footer-links {
+        display: initial;
     }
 }
 
@@ -840,5 +819,81 @@ h1 {
         padding-top: 70px;
         padding-left: 30px;
         display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #aboutusimg {
+        display: block;
+        padding-top: 20px;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #aboutuspage {
+        width: 80%;
+        margin-top: 50px;
+        padding-left: 30px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    main {
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    main {
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    #aboutusimg {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    #aboutuspage {
+        width: 80%;
+        margin-top: 50px;
+        padding-left: 30px;
+        display: inline-block;
+    }
+}
+/* media query for contact us page */ 
+
+@media only screen and (max-width: 280px) {
+    section.form-section2 {
+        width: 80%;
+        margin-top: 100px;
+        padding-left: 30px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    form.form-section3 {
+        width: 90%;
+        margin-top: 100px;
+        padding-left: 0;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    #query {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .contactimg {
+        width: none;
+        display: none;
     }
 }
