@@ -338,6 +338,7 @@ h1 {
 }
 
 /* Index page media query - w3schools.com */
+
 /* media query for logos w3schools.com */
 
 @media only screen and (max-width: 1300px) {
@@ -648,6 +649,19 @@ h1 {
 
 /* Login page media queries */
 
+/* login form image */
+
+@media only screen and (max-width: 1300px) {
+    .form-section1 {
+        clear:left;
+        background: url('/assets/images/photo15.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 2rem;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .form-section1 {
         clear:left;
@@ -655,8 +669,8 @@ h1 {
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 550px;
-        margin-top: 4rem;
+        
+        margin-top: 2rem;
     }
 }
 
@@ -667,8 +681,8 @@ h1 {
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 250px;
-        margin-top: 3rem;
+        height: 18rem;
+        margin-top: 2rem;
     }
 }
 
@@ -679,7 +693,7 @@ h1 {
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 250px;
+        height: 18rem;
     }
 }
 
@@ -690,8 +704,8 @@ h1 {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        height: 270px;
-        margin-top: 6rem;
+        height: 18rem;
+        margin-top: 0rem;
     }
 }
 
@@ -702,80 +716,164 @@ h1 {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        height: 270px;
+        height: 18rem;
     }
 }
+
+/* login form positioning */
+
+@media only screen and (max-width: 1350px) {
+    .login-form {
+        padding-left: 10rem;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .login-form {
+        padding-left: 6rem;
+        width: 40%;
+    }
+}
+
 
 @media only screen and (max-width: 1024px) {
     .login-form {
-        padding-left: 50px;
-
-
+        padding-left: 4rem;
+        width: 40%;
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 950px) {
     .login-form {
-        padding-left: 50px;
+        padding-left: 4rem;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .login-form {
+        padding-left: 4rem;
+        width: 40%;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .login-form {
-        padding-left: 150px;
-        padding-top: 150px;
+        padding-left: 13rem;
+        padding-top: 10rem;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .login-form {
+        padding-left: 10rem;
+        padding-top: 10rem;
+        width: 40%;
     }
 }
 
 @media only screen and (max-width: 540px) {
     .login-form {
-        padding-left: 50px;
-        padding-top: 150px;
-
+        padding-left: 10rem;
+        padding-top: 10rem;
+        width: 40%;
     }
 }
 
+@media only screen and (max-width: 500px) {
+    .login-form {
+        padding-left: 8rem;
+        padding-top: 10rem;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .login-form {
+        padding-left: 5rem;
+        padding-top: 10rem;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .login-form {
+        padding-left: 5rem;
+        padding-top: 8rem;
+        width: 50%;
+    }
+}
+
+/* login page footer links positioning */
+
 @media only screen and (max-width: 1024px) {
     #mobilefooterlinks {
-        padding-top: 370px;
+        padding-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 842px) {
+    #mobilefooterlinks {
+        padding-top: 2rem;
+        padding-left: 8rem;
+        width: 65%;
+        text-align: center;
     }
 }
 
 @media only screen and (max-width: 768px) {
     #mobilefooterlinks {
-        padding-top: 390px;
+        padding-top: 18rem;
+        padding-left: 4rem;
+        width: 75%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #mobilefooterlinks {
+        padding-top: 18rem;
+        padding-left: 2rem;
+        width: 75%;
+        text-align: center;
     }
 }
 
 @media only screen and (max-width: 300px) {
     #mobilefooterlinks {
-        padding-top: 250px;
+        padding-top: 18rem;
+        padding-left: 1rem;
+        width: 75%;
+        text-align: center;
     }
 }
 
 @media only screen and (max-width: 280px) {
     #mobilefooterlinks {
-        padding-top: 290px;
+        padding-top: 18rem;
+        padding-left: 1rem;
+        width: 75%;
+        text-align: center;
     }
 }
 
 /* media query for about us page */
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1300px) {
     #aboutusimg {
-        display: block;
-        padding-top: 20px;
-        padding-left: 300px;
+        padding-top: -10rem;
+        padding-left: 40rem;
     }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1300px) {
     #aboutuspage {
-        width: 75%;
-        height: auto;
-        padding-top: 70px;
-        padding-left: 150px;
-        display: inline-block;
+        width: 40%;
+        padding-top: 3rem;
+        padding-left: 3rem;
+        display: block;
     }
 }
 
