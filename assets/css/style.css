@@ -262,10 +262,10 @@ h1 {
 /* about us page styling */
 
 #aboutuspage {
-    width: 45%;
+    width: 40%;
     height: auto;
-    padding-top: 70px;
-    padding-left: 50px;
+    padding-top: 4rem;
+    padding-left: 3rem;
     display: inline-block;
 }
 
@@ -288,7 +288,8 @@ h1 {
 
 .form-section3 {
     width: 21%;
-    padding-left: 220px;
+    padding-top: 5rem;
+    padding-left: 5rem;
     display: inline-block;
 }
 
@@ -298,15 +299,18 @@ h1 {
 
 #query {
     display: block;
+    background: none;
 }
 
-.contactimg {
-    width: 45%;
-    display: inline-block;
-    padding-left: 330px;
-    text-align: center;
-    padding-top: 50px;
+.form-section2 {
+    clear:left;
+    background: url('/assets/images/photo10.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
 }
+
+
 
 /* Confirmation Page Styling */
 
@@ -863,151 +867,162 @@ h1 {
 
 @media only screen and (max-width: 1300px) {
     #aboutusimg {
-        padding-top: -10rem;
-        padding-left: 40rem;
+        padding-left: 20rem;
     }
 }
 
 @media only screen and (max-width: 1300px) {
     #aboutuspage {
-        width: 40%;
+        width: 50%;
+        padding-top: 3rem;
+        padding-left: 20rem;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #aboutusimg {
+        padding-left: 17rem;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #aboutuspage {
+        width: 50%;
+        padding-top: 3rem;
+        padding-left: 17rem;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #aboutusimg {
+        padding-left: 12rem;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #aboutuspage {
+        width: 60%;
+        padding-top: 3rem;
+        padding-left: 12rem;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    #aboutusimg {
+        padding-left: 8rem;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    #aboutuspage {
+        width: 65%;
+        padding-top: 3rem;
+        padding-left: 8rem;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #aboutusimg {
+        padding-left: 4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #aboutuspage {
+        width: 70%;
+        padding-top: 3rem;
+        padding-left: 9rem;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #aboutuspage {
+        width: 80%;
+        padding-top: 3rem;
+        padding-left: 4rem;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #aboutusimg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #aboutuspage {
+        width: 75%;
+        padding-top: 3rem;
+        padding-left: 4rem;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #aboutuspage {
+        width: 75%;
         padding-top: 3rem;
         padding-left: 3rem;
         display: block;
     }
 }
 
-@media only screen and (max-width: 1024px) {
-    #aboutusimg {
-        display: block;
-        padding-top: 20px;
-        margin-left: -5rem;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 370px) {
     #aboutuspage {
         width: 75%;
-        height: auto;
-        padding-top: 70px;
-        padding-left: 120px;
-        display: inline-block;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    #aboutusimg {
+        padding-top: 3rem;
+        padding-left: 2rem;
         display: block;
-        padding-top: 20px;
-        padding-left: 70px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    #aboutuspage {
-        width: 60%;
-        height: auto;
-        padding-top: 70px;
-        padding-left: 0;
-        display: inline-block;
-    }
-}
-
-@media only screen and (max-width: 540px) {
-    #aboutusimg {
-        display: block;
-        padding-top: 20px;
-        float:none;
-    }
-}
-
-@media only screen and (max-width: 540px) {
-    #aboutuspage {
-        width: 80%;
-        height: auto;
-        padding-top: 70px;
-        padding-left: 50px;
-        display: inline-block;
-    }
-}
-
-@media only screen and (max-width: 360px) {
-    #aboutusimg {
-        display: block;
-        padding-top: 20px;
-        width: 50%;
     }
 }
 
 @media only screen and (max-width: 360px) {
     #aboutuspage {
-        width: 80%;
-        padding-top: 70px;
-        padding-left: 30px;
-        display: inline-block;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    #aboutusimg {
+        width: 75%;
+        padding-top: 3rem;
+        padding-left: 2.5rem;
         display: block;
-        padding-top: 20px;
-        width: 50%;
     }
 }
 
-@media only screen and (max-width: 320px) {
-    #aboutuspage {
-        width: 80%;
-        margin-top: 50px;
-        padding-left: 30px;
-        display: inline-block;
-    }
-}
-
-@media only screen and (max-width: 280px) {
-    #aboutusimg {
-        display:none;
-    }
-}
-
-@media only screen and (max-width: 280px) {
-    #aboutuspage {
-        width: 80%;
-        margin-top: 50px;
-        padding-left: 30px;
-        display: inline-block;
-    }
-}
 /* media query for contact us page */ 
 
-@media only screen and (max-width: 280px) {
-    section.form-section2 {
-        width: 80%;
-        margin-top: 100px;
-        padding-left: 30px;
+
+@media only screen and (max-width: 1660px) {
+    .form-section3 {
+        padding-top: 10rem;
+        padding-left: 10rem;
+        padding-right: 5rem;
         display: inline-block;
     }
 }
 
-@media only screen and (max-width: 280px) {
-    form.form-section3 {
-        width: 90%;
-        margin-top: 100px;
-        padding-left: 0;
-        display: inline-block;
-    }
-}
-
-@media only screen and (max-width: 280px) {
-    #query {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 1660px) {
     .contactimg {
-        width: none;
-        display: none;
+
+        height: 25vh;
+        padding-left: 15rem;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .contactimg {
+        display: inline-block;
+        padding-left: 10rem;
+    }
+}
+
+@media only screen and (max-width: 1490px) {
+    .contactimg {
+        display: inline-block;
+        padding-left: 10rem;
     }
 }
