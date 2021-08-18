@@ -341,8 +341,6 @@ h1 {
     }
 }
 
-/* Index page media query - w3schools.com */
-
 /* media query for logos w3schools.com */
 
 @media only screen and (max-width: 1300px) {
@@ -363,6 +361,29 @@ h1 {
         padding: 0.5rem;
         }
 }
+
+/* media query for footer */
+
+@media only screen and (max-width: 768px) {
+    footer {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .copyright i {
+        text-align: center;
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    ul.footer-links {
+        display: initial;
+    }
+}
+
+/* Index page media query - w3schools.com */
 
 /* media query for background image index page - w3schools.com */
 
@@ -490,7 +511,6 @@ h1 {
 
     }
 }
-
 
 /* media query for flexbox - w3schools.com */
 
@@ -627,27 +647,6 @@ h1 {
     }
     #linktop {
         padding-top: 280px;
-    }
-}
-
-/* media query for footer */
-
-@media only screen and (max-width: 768px) {
-    footer {
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .copyright i {
-        text-align: center;
-        font-size: small;
-    }
-}
-
-@media only screen and (max-width: 280px) {
-    ul.footer-links {
-        display: initial;
     }
 }
 
@@ -995,34 +994,70 @@ h1 {
 
 /* media query for contact us page */ 
 
-
-@media only screen and (max-width: 1660px) {
+@media only screen and (max-width: 1900px) {
     .form-section3 {
-        padding-top: 10rem;
-        padding-left: 10rem;
-        padding-right: 5rem;
+        width: 21%;
+        padding-top: 2rem;
+        padding-left: 5rem;
         display: inline-block;
     }
 }
 
-@media only screen and (max-width: 1660px) {
-    .contactimg {
-
-        height: 25vh;
-        padding-left: 15rem;
+@media only screen and (max-width: 1650px) {
+    .form-section3 {
+        width: 21%;
+        padding-top: 1rem;
+        padding-left: 5rem;
+        display: inline-block;
     }
 }
 
-@media only screen and (max-width: 1600px) {
-    .contactimg {
-        display: inline-block;
-        padding-left: 10rem;
+@media only screen and (max-width: 1650px) {
+    .form-section2 {
+        clear:left;
+        background: url('/assets/images/photo10.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 150vh;
     }
 }
 
-@media only screen and (max-width: 1490px) {
-    .contactimg {
+@media only screen and (max-width: 1200px) {
+    .form-section3 {
+        width: 21%;
+        padding-top: 30rem;
+        padding-left: 2rem;
         display: inline-block;
-        padding-left: 10rem;
+    }
+}
+
+@media only screen and (max-width: 1105px) {
+    .form-section3 {
+        width: 35%;
+        padding-top: 30rem;
+        padding-left: 2rem;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .form-section2 {
+        clear:left;
+        background: url('/assets/images/photo10.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #footercontactus {
+        padding-top: 30rem;
+    }
+}
+
+@media only screen and (max-width: 842px) {
+    #footercontactus {
+        padding-top: 30rem;
     }
 }
