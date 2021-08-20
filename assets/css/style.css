@@ -57,6 +57,7 @@ footer {
 
 h1 {
     font-size: 2rem;
+    padding-top: 2rem;
 }
 
 .join-us {
@@ -201,7 +202,7 @@ h1 {
     background: url('/assets/images/photo28.jpg');
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 80vh;
 }
 
 .login-form {
@@ -230,6 +231,16 @@ h1 {
 
 .text-input:hover {
     border-color: blue;
+}
+
+#email:focus {
+    background: white;
+    color: black;
+}
+
+#password:focus {
+    background: white;
+    color: black;
 }
 
 .kickstart-button {
@@ -281,16 +292,26 @@ h1 {
 
 /* Contact Us page Styling */
 
+.form-section2 h2 {
+    color: rgb(221, 93, 8);
+    width: 100%;
+}
+
+#email:focus {
+    background: white;
+    color: black;
+}
+
+#phone:focus {
+    background: white;
+    color: black;
+}
+
 .form-section3 {
     width: 20%;
     padding-top: 5rem;
     padding-left: 25rem;
     display: inline-block;
-}
-
-.form-section2 h2 {
-    color: rgb(221, 93, 8);
-    width: 100%;
 }
 
 #query {
