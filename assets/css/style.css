@@ -407,15 +407,21 @@ h1 {
         width: 100%;
         height: 80vh;
     }
+    h1 {
+        padding-top: 1rem;
+    }
+
     #linktoevents {
         color: white;
         font-size: 2rem;
+        display: grid;
+        margin-top: 32rem;
     }
     #container {
         flex-direction: column;
         text-align: center;
         float: none;
-        height: 205vh;
+        height: 210vh;
         width: 45%;
         margin-left: 25%;
     }
@@ -439,7 +445,9 @@ h1 {
         font-size: 1rem;
     }
     #linktotop {
-        font-size: 1rem;
+        font-size: 1.5rem;
+        display: grid;
+        margin-top: 5rem;
     }
     .form-section3 {
         width: 30%;
@@ -448,13 +456,16 @@ h1 {
         display: inline-block;
     }
     
-    .form-section2 {
+    .form-section1 {
         clear:left;
-        background: url('/assets/images/photo21.jpg');
+        background: url('/assets/images/photo28.jpg');
         background-size: cover;
         background-position: center;
         padding-left: 10px;
         height: 90vh;
+    }
+    #aboutusimage {
+        height: 80%;
     }
 }
 
