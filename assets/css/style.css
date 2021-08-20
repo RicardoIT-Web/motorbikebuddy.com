@@ -10,13 +10,18 @@ body {
     flex-direction: column;
 }
 
-header {
-    height: 100px;
+.header {
+    height: 150px;
     padding: 10px;
 }
 
-main {
-    height: 75%;
+.main {
+    height: calc(100vh);
+}
+
+.footer {
+    height: 50px;
+    padding: 0;
 }
 
 /* home page */
@@ -280,7 +285,7 @@ h1 {
 /* Contact Us page Styling */
 
 .form-section3 {
-    width: 21%;
+    width: 20%;
     padding-top: 5rem;
     padding-left: 5rem;
     display: inline-block;
@@ -288,11 +293,13 @@ h1 {
 
 .form-section2 h2 {
     color: rgb(221, 93, 8);
+    width: 100%;
 }
 
 #query {
     display: block;
     background: none;
+    width: 100%;
 }
 
 #query:focus {
@@ -305,7 +312,8 @@ h1 {
     background: url('/assets/images/photo10.jpg');
     background-size: cover;
     background-position: center;
-    height: 150vh;
+    padding-left: 50px;
+    height: 70vh;
 }
 
 
@@ -540,14 +548,10 @@ h1 {
 
     .form-section3 {
         width: 35%;
-        padding-top: 45rem;
+        padding-top: 25rem;
         padding-left: 20rem;
         display: inline-block;
     }
-    #footercontactus {
-        padding-top: 40rem;
-    }
-}
 
 /* 768px wide */
 
@@ -981,41 +985,6 @@ h1 {
         padding-left: 4rem;
         width: 75%;
         text-align: center;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    #mobilefooterlinks {
-        padding-top: 18rem;
-        padding-left: 2rem;
-        width: 75%;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 300px) {
-    #mobilefooterlinks {
-        padding-top: 18rem;
-        padding-left: 1rem;
-        width: 75%;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 280px) {
-    #mobilefooterlinks {
-        padding-top: 18rem;
-        padding-left: 1rem;
-        width: 75%;
-        text-align: center;
-    }
-}
-
-
-
-@media only screen and (max-width: 2000px) {
-    #query {
-        width: 100%;
     }
 }
 
