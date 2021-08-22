@@ -556,7 +556,7 @@ h1 {
     }
 }
 
-/* media query for small screens 768px*/
+/* media query for medium screens 768px*/
 
 @media (min-width: 768px) {
 /* index */
@@ -571,7 +571,36 @@ h1 {
 /*contact us */
     .form-section3 {
         padding-top: 30rem;
-        max-width: 95%;
+        max-width: 75%;
+        margin-left: 12.5%;
         margin-bottom: 5rem;
     }
 }
+
+/* media query for medium screens 992px*/
+
+@media (min-width: 768px) {
+    /*index */
+    #bgimage {
+        width: 100vw;
+        height: 60vh;
+    }
+    #container {
+        flex-direction: column;
+        text-align: center;
+        float: none;
+        height: 200vh;
+        width: 65%;
+        margin-left: 17.5%;
+        margin-top: 3rem;
+    }
+    #containerfooter {
+        margin-bottom: 1rem;
+    }
+    #linktotop {
+        display:block;
+        margin-top: 3rem;
+    }
+}
+
+/* media query for medium screens 1024px*/
