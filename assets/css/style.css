@@ -56,7 +56,7 @@ footer {
 }
 
 #bgimage {
-    background: url('/assets/images/photo21.jpg');
+    background: url('assets/images/photo21.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -177,7 +177,7 @@ h1 {
 
 .form-section1 {
     clear:left;
-    background: url('/assets/images/photo28.jpg');
+    background: url('assets/images/photo28.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -301,7 +301,7 @@ h1 {
 
 .form-section2 {
     clear:left;
-    background: url('/assets/images/photo4.jpg');
+    background: url('assets/images/photo4.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -330,7 +330,7 @@ h1 {
 
 @media only screen and (max-width: 1300px) {
     #navbar img {
-        content:url('/assets/images/motorbikebuddy-logo2.jpg');
+        content:url('assets/images/motorbikebuddy-logo2.jpg');
         text-align: center;
         padding: 0.5rem 0.5rem;
     }
@@ -402,7 +402,7 @@ h1 {
 /*login */
     .form-section1 {
         clear:left;
-        background: url('/assets/images/photo28.jpg');
+        background: url('assets/images/photo28.jpg');
         background-size: cover;
         background-position: center;
         height: 80vh;
@@ -431,7 +431,7 @@ h1 {
     }
 /* contact us */
     .form-section2 {
-        background: url('/assets/images/photo4.jpg');
+        background: url('assets/images/photo4.jpg');
         background-size:contain;
         background-repeat: no-repeat;
     }
@@ -529,7 +529,7 @@ h1 {
 /* login */
     .form-section1 {
         clear:left;
-        background: url('/assets/images/photo28.jpg');
+        background: url('assets/images/photo28.jpg');
         background-size: cover;
         background-position: center;
         height: 80vh;
@@ -554,7 +554,7 @@ h1 {
 @media only screen and (min-width: 540px) {
 /* index */
     .bgimage2 {
-        background: url('/assets/images/photo21-1.jpg');
+        background: url('assets/images/photo21-1.jpg');
         width: 100vw;
         height: 30vh;
 }
@@ -792,7 +792,7 @@ h1 {
 /*login */
     .form-section1 {
         clear:left;
-        background: url('/assets/images/photo28.jpg');
+        background: url('assets/images/photo28.jpg');
         background-size: cover;
         background-position: center;
         height: 50vh;
@@ -804,7 +804,7 @@ h1 {
 @media only screen and (min-width: 992px) {
 /*index */
     #bgimage {
-        background: url('/assets/images/photo21.jpg');
+        background: url('assets/images/photo21.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         width: 90vw;
@@ -833,7 +833,7 @@ h1 {
 @media only screen and (min-width: 1024px) and (orientation: landscape) {
 /*index */
     #bgimage {
-        background: url('/assets/images/photo21.jpg');
+        background: url('assets/images/photo21.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         width: 95vw;
@@ -870,7 +870,7 @@ h1 {
 @media only screen and (min-width: 1200px) {
 /*index */
     #bgimage {
-        background: url('/assets/images/photo21.jpg');
+        background: url('assets/images/photo21.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -958,6 +958,6 @@ h1 {
 /*contact us*/
     .form-section2 {
         background-size: cover;   
-        height: 90vh;
-}
+        height: 130vh;
+    }
 }
