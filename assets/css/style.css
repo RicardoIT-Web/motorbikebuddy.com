@@ -89,9 +89,8 @@ h1 {
 #container .info {
     background-color: hsl(27, 98%, 52%);
     text-align:center;
-    color: rgb(7, 7, 7);
+    color: white;
     border: transparent;
-    opacity: .8;
     float: none;
 }
 
@@ -306,7 +305,6 @@ h1 {
     background: url('/assets/images/photo4.jpg');
     background-size: cover;
     background-position: center;
-    padding-left: 1rem;
     height: 100vh;
 }
 
@@ -409,7 +407,7 @@ h1 {
     }
 /*about us */
     #aboutuspage {
-        width: 85%;
+        width: 90%;
         height: auto;
         padding-top: 4rem;
         padding-left: 1rem;
@@ -436,7 +434,7 @@ h1 {
     }
     .form-section3 {
         padding-top: 12rem;
-        max-width: 90%;
+        max-width: 95%;
         margin-bottom: 5rem;
     }
 
@@ -480,12 +478,16 @@ h1 {
         float: none;
         height: 290vh;
         width: 100%;
-}
+    }
+/* about us */
+    #aboutuspage {
+        width: 90%;
+    }
 /* contact us */
     .form-section3 {
         padding-top: 15rem;
-        max-width: 90%;
-        margin-bottom: 5rem;
+        max-width: 95%;
+
     }
 }
 
@@ -495,19 +497,26 @@ h1 {
 /*index */
     #bgimage {
         width: 100vw;
-        height: 40vh;
+        height: 35vh;
     }
     #container {
         flex-direction: column;
         text-align: center;
         float: none;
-        height: 290vh;
+        height: 280vh;
         width: 100%;
     }
-/*contact us */
+/* login */
+    .form-section1 {
+        height: 55vh;
+    }
+    .login-form {
+        margin-top: 60px;
+    }
+    /*contact us */
     .form-section3 {
         padding-top: 15rem;
-        max-width: 90%;
+        max-width: 95%;
         margin-bottom: 5rem;
     }
 }
@@ -515,6 +524,14 @@ h1 {
 /* media query for small screens 411px*/
 
 @media (min-width: 411px) {
+/*index */
+    #container {
+        flex-direction: column;
+        text-align: center;
+        float: none;
+        height: 290vh;
+        width: 100%;
+    }
 /* login */
     .form-section1 {
         clear:left;
@@ -525,7 +542,7 @@ h1 {
     }
 /* about us */
     #aboutuspage {
-        width: 90%;
+        width: 92%;
         height: auto;
         padding-top: 4rem;
         padding-left: 1rem;
@@ -642,13 +659,13 @@ h1 {
         background-repeat: no-repeat;
         background-size: cover;
         width: 90vw;
-        height: 65vh;
+        height: 40vh;
     }
     #container {
         flex-direction: column;
         text-align: center;
         float: none;
-        height: 210vh;
+        height: 110vh;
         width: 65%;
         margin-left: 17.5%;
         margin-top: 3rem;
@@ -664,7 +681,7 @@ h1 {
 
 /* media query for medium screens 1024px*/
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
 /*index */
     #bgimage {
         background: url('/assets/images/photo21.jpg');
@@ -672,13 +689,13 @@ h1 {
         background-size: cover;
         width: 95vw;
         margin: 0 2.5% 0 2.5%;
-        height: 40vh;
+        height: 55vh;
     }
     #container {
         flex-direction: column;
         text-align: center;
         float: none;
-        height: 130vh;
+        height: 230vh;
         width: 65%;
         margin-left: 17.5%;
         margin-top: 3rem;
@@ -689,5 +706,96 @@ h1 {
         max-width: 75%;
         margin-left: 12.5%;
         margin-bottom: 5rem;
+    }
+}
+
+/* media query for medium screens 1200px*/
+
+@media (min-width: 1200px) {
+/*index */
+    #bgimage {
+        background: url('/assets/images/photo21.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: 0;
+        height: 80vh;
+    }
+    #linktoevents {
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+        text-decoration: transparent;
+        color: gray;
+        padding-left: 3rem;
+    }
+    #container {
+        flex-direction: row;
+        text-align: center;
+        float: none;
+        width: auto;
+        height: 50vh;
+        margin-left: 0;
+        margin-top: 3rem;
+    }
+    h2 {
+        color: black;
+    }
+    .item1 img {
+        width: 99%;
+    }
+    .item2 img {
+        width: 99%;
+    }
+    .item3 img {
+        width: 99%;
+    }
+    .item4 img {
+        width: 99%;
+    }
+    #container .info {
+        background-color: hsl(27, 98%, 52%);
+        font-size: x-small;
+    }
+    .footer-links {
+        font-size: small;
+    }
+/*Login*/
+    .login-form {
+        margin: 80px 10% 0 0;
+        color: hsl(27, 98%, 52%);
+        background: transparent;
+        max-width: 50%;
+        position:absolute;
+        padding-left: 5rem;
+    }
+/*about us */
+    footer {
+        margin-top: 0;
+    }
+/*contact us */
+    .form-section3 {
+        padding-top: 2rem;
+        width: 500px;
+        margin-left: 5rem;
+    }
+    .form-section2 {
+        background-size: cover;   
+        height: 70vh;
+    }
+}
+
+/* media query for medium screens 1300px*/
+@media (min-width: 1300px) {
+    .form-section1 {
+        height: 70vh;
+    }
+}
+
+/* media query for medium screens 1350px*/
+
+@media (min-width: 1350px) {
+    #bgimage {
+        height: 90vh;
     }
 }
