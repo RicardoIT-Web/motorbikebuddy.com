@@ -799,6 +799,28 @@ h1 {
     }
 }
 
+/* media query for medium screens 896px*/
+
+@media only screen and (min-width: 896px) and (orientation: landscape) {
+    #bgimage {
+        background: url('../images/photo21.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 90vw;
+        height: 80vh;
+    }
+    #container {
+        flex-direction: column;
+        text-align: center;
+        float: none;
+        height: 410vh;
+        width: 65%;
+        margin-left: 17.5%;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+}
+
 /* media query for medium screens 992px*/
 
 @media only screen and (min-width: 992px) {
