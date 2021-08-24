@@ -81,6 +81,7 @@ h1 {
 }
 
 #container {
+    clear: both;
     display: flex;
     justify-content: space-around;
     margin-top: 0;
@@ -347,7 +348,7 @@ h1 {
     }
 }
 
-/* media query for iphone 5/SE 320px */
+/* media query 320px */
 
 @media only screen and (min-width: 320px) and (orientation: portrait) {
 /*navbar*/
@@ -369,8 +370,11 @@ h1 {
         display: none;
     }
     #container {
+        clear: both;
         flex-direction: column;
-        height: 270vh;
+    }
+    #containerfooter {
+        margin-bottom: 1rem;
     }
     #container .info {
         font-size: small;
@@ -467,10 +471,10 @@ h1 {
 @media only screen and (min-width: 360px) {
 /* index */
     #container {
+        clear: both;
         flex-direction: column;
         text-align: center;
         float: none;
-        height: 290vh;
         width: 100%;
     }
 /* about us */
@@ -494,10 +498,10 @@ h1 {
         height: 35vh;
     }
     #container {
+        clear: both;
         flex-direction: column;
         text-align: center;
         float: none;
-        height: 280vh;
         width: 100%;
     }
 /* login */
@@ -520,10 +524,10 @@ h1 {
 @media only screen and (min-width: 411px) {
 /*index */
     #container {
+        clear: both;
         flex-direction: column;
         text-align: center;
         float: none;
-        height: 290vh;
         width: 100%;
     }
 /* login */
@@ -559,10 +563,10 @@ h1 {
         height: 30vh;
 }
     #container {
+        clear: both;
         flex-direction: column;
         text-align: center;
         float: none;
-        height: 800vh;
         width: 100%;
         margin-top: -2rem;
     }
@@ -631,6 +635,7 @@ h1 {
 @media only screen and (min-width: 640px) and (orientation: landscape) {
 /*index*/
     #container {
+        clear: both;
         flex-direction: column;
         height: 550vh;
     }
@@ -675,7 +680,7 @@ h1 {
         height: 80vh;
     }
     #container {
-        height: 400vh;
+        clear: both;
     }
     .footer-links {
         padding-top: 0;
@@ -695,10 +700,10 @@ h1 {
         font-size: 2rem;
     }
     #container {
+        clear: both;
         flex-direction: column;
         text-align: center;
         float: none;
-        height: 200vh;
         width: 75%;
         margin-left: 12.5%;
         margin-top: 2rem;
@@ -735,6 +740,7 @@ h1 {
         margin: 0;
     }
     #container {
+        clear: both;
         flex-direction: column;
         text-align: center;
         float: none;
@@ -774,7 +780,7 @@ h1 {
         font-size: 1rem;
     }
     #container {
-        height: 475vh;
+        clear: both;
     }
     .footer-links a {
         font-size: 1rem;
@@ -797,7 +803,7 @@ h1 {
         width: 100vw;
     }
     #container {
-        height: 425vh;
+        clear: both;
     }
     .footer-links a {
         font-size: 1rem;
@@ -823,10 +829,10 @@ h1 {
         font-size: 2rem;
     }
     #container {
+        clear: both;
         flex-direction: column;
         text-align: center;
         float: none;
-        height: 210vh;
         width: 75%;
         margin-left: 12.5%;
         margin-top: 2rem;
@@ -853,10 +859,10 @@ h1 {
         height: 80vh;
     }
     #container {
+        clear: both;
         flex-direction: column;
         text-align: center;
         float: none;
-        height: 410vh;
         width: 65%;
         margin-left: 17.5%;
         margin-top: 3rem;
@@ -882,6 +888,7 @@ h1 {
         height: 50vh;
     }
     #container {
+        clear: both;
         flex-direction: column;
         text-align: center;
         float: none;
@@ -912,10 +919,10 @@ h1 {
         height: 55vh;
     }
     #container {
+        clear: both;
         flex-direction: column;
         text-align: center;
         float: none;
-        height: 230vh;
         width: 65%;
         margin-left: 17.5%;
         margin-top: 3rem;
@@ -957,10 +964,10 @@ h1 {
         padding-left: 3rem;
     }
     #container {
+        clear: both;
         flex-direction: row;
         float: none;
         width: auto;
-        height: auto;
         margin-left: 0;
         margin-top: 3rem;
     }
