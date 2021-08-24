@@ -794,6 +794,7 @@ h1 {
 /*index */
     #bgimage {
         height: 100vh;
+        width: 100vw;
     }
     #container {
         height: 425vh;
@@ -843,11 +844,12 @@ h1 {
 /* media query for medium screens 896px*/
 
 @media only screen and (min-width: 896px) and (orientation: landscape) {
+/*index*/
     #bgimage {
         background: url('../images/photo21.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        width: 90vw;
+        width: 100vw;
         height: 80vh;
     }
     #container {
@@ -862,6 +864,10 @@ h1 {
      #containerfooter {
          margin-bottom: 1rem;
      }
+/*login*/
+    .form-section1 {
+        height: 100vh;
+    }
 }
 
 /* media query for medium screens 992px*/
