@@ -49,68 +49,58 @@ Below the hero image, viewers will identify current events orgainsed and will be
 
 
 
-Below the events section, the users will see a link which will take the viewer back to the top of the page.
+Below the events section, the users will see a clickable link which will take the viewer back to the top of the page.
 
-![Link Back to Top](docs/READMEfiles/backtotop.jpg)
 
 At the bottom of the page the user will identify the footer section which will contain the motorbikebuddy copyright icon to the right together with links to social networking sites including Twiiter, Facebook and Instagram.
 
-![Footer Links](docs/READMEfiles/footerimage.jpg)
 
 The Top navigation bar and the footer sections will be replicated on all pages of this website.
 
 * See "Future Features" in section 4 for whats to come in future releases.
 
-### _**Login Page**_
-
-This release will include a login page which will allow the user to insert their username and password. After clicking the kickstart-go button, the user will be routed back to the home page. There will also be a clear button if the user wishes to clear the form.
-
-![Login page](docs/READMEfiles/loginform.jpg)
-
-Future releases will include a personal profile page allowing the user to carry out other functions as described in the future features section.
 
 ### _**About Us**_
 
 This page will contain a brief description of who the platform owners are and what services they aim to provide members and why.
 
-![About Us Page](docs/READMEfiles/aboutusimg.jpg)
-
-See "Future Features" in section 4 for whats to come in future releases.
+* See "Future Features" in section 4 for whats to come in future releases.
 
 ### _**Contact Us Page**_
 
-The contact Us page will allow users to reach out to us for any queries or concerns.
+The contact Us page will allow users to reach out to us for information related to the website.
 
-This will be available using a "forms" feature where the user will be encouraged to fill in some 'required' basic information which will allow us to revert back to the user, using their preferred method (email or phone call),  with relevant responses. Viewers using large screens will identify a link at the top of the page to diirect the user to the form section below the image.
-
-![Contact Us Link](docs/READMEfiles/contactuslink.jpg)
+This will be available using a "forms" feature where the user will be encouraged to fill in some 'required' basic information which will allow Owners to revert back to the user, using their preferred method (email or phone call),  with relevant responses. Viewers using large screens will identify a link above the Hero Image to direct the user to the form section below.
 
 See "Future Features" in section 4 for whats to come in future releases.
 
 ### _**Confirmation Page**_
 
-This page will provide the user some reassurances that the form has been submitted successfully.
+This page will provide the user with assurances that the form has been submitted successfully.
 
 # Future Features
 
 ### _**The Home Page**_
 
-In furture releases we aim to add a search feature to the home page, allowing the user to search for members near-by, potentially with a dotted map view illustrating location of those members.
+In furture releases we aim to add a registration page for prospective members to create a profile and join the platform.
 
-We will also be adding a feature for members and hosts to organise events, weather that be racing events, touring holidays and large gatherings such as live gigs. 
-Once the event is launch, members will be able to sign up but also, if a member is undecided, they will have the option of selecting a "show your interest" button, whereby the host will receive notifications of these member enabling them to send updates of their respective events to interested buddies.
+This will be followed by a login feature for existing members to be able to access their profiles.
 
-### _**About Us / Legal Terms Page**_
+Owner also aim to include a search feature to the home page, allowing members and prospective users to search for other members near-by.
 
-Future releases will include a link to "FAQs", Frequently Asked Questions.
+Owners will also be adding a new page for members and external hosts to organise events, weather that be racing events, touring holidays or large gatherings such as live gigs. 
+Once the event is launch, members will be able to sign up but also, if a member is undecided, they will have the option of selecting the "show your interest" button, whereby the host will receive notifications of these member enabling them to send updates of their respective events to interested buddies.
+
+Owners will also add reviews from existing members to the home page allowing other members and prospective users to view this information.
+
+Future releases will also include bar menus on smaller screens to reduce space and include increased number of pages.
+
+### _**About Us **_
+
+Future releases will include  the legal terms and conditions of use of the platform and also a link to "FAQs", Frequently Asked Questions.
 
 ### _**Contact Us Page**_
 
-Future releases will include a link to "FAQs", Frequently Asked Questions.
-
-### _**Confirmation Page**_
-
-Future releases will include a link to "FAQs", Frequently Asked Questions.
 
 # Typography and Color schemes
 
