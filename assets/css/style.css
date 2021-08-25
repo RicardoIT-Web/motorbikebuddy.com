@@ -322,7 +322,7 @@ h1 {
 
 /* media query for logos w3schools.com */
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1200px) {
     #navbar img {
         content:url('../images/motorbikebuddy-logo2.jpg');
         text-align: center;
