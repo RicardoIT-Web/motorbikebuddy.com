@@ -4,7 +4,7 @@
 
 ![Am I Responsive Design](docs/READMEfiles/imageamiresponsive.jpg)
 
-This project was developed to satisfy the first Milestone Project requirements of the Full Stack Web Development Program at the [Code Institute](https://www.codeinstitute.net). As a first project, this site was created using HTML5 and CSS3 languages.
+This project was developed to satisfy the first Milestone Project requirements of the Full Stack Web Development Program at the [Code Institute](https://www.codeinstitute.net). As a first project, this site is created using HTML5 and CSS3 languages.
 
 The purpose of this Social Networking website is to provide a platform for motorbike fans around the world to arrange gatherings of short trips, touring holidays and arrange related events where bikers can come together and experience memorable adventures.
 
@@ -29,38 +29,25 @@ The purpose of this Social Networking website is to provide a platform for motor
 I am a prospective Motorbike buddy site member and I want to be able to:
 
 * Immediately understand the purpose of the motorbikebuddy website.
-* Locate the navigation bar.
-* Login in to the site.
-* View information about the owners of the platform.
+* Locate the navigation bar and identify what pages are available to me.
+* Easily identify currently organised events and request more details via a link readily available to me.
+* The link should direct me to the contact us page with a form which will allow me to fill in my contact details and allow the platform owners to respond.
+* View information about the owners of the platform and what else the site aims to achieve
 * Reach out to the owners of the platform for any questions or concerns about the platform.
-* Easily see what current events are available.
-
-## Existing User
-
-I am an existing Motorbike buddy site member and I want to be able to:
-
-* Login in to my personal profile.
-* View current events that might interest me.
-* Subscribe to any event I may wish to join in.
-* View information about the owners of the platform.
-* Reach out to the owners of the platform for any questions or concerns.
 * Receive a confirmation notification once I have submitted my questions or concerns.
+
 
 # Features
 
 ### _**The Home Page**_
 
-The first release version of this website will include a home page which will contain a navigation bar at the top, containing the website Logo floated to the left and to the right will include the functionality for the user to login, view information about the sites objectives and be able to reach out to the platform owners if required.
-
-![Nav Bar Image](docs/READMEfiles/imageofnavbar.jpg)
+The first release version of this website will include a home page which will contain a navigation bar at the top, containing the website Logo floated to the left and to the right will include the functionality for the user to view information about the sites objectives and be able to reach out to the platform owners for information.
 
 This home page will include a "Hero" image.
 
-![Hero Image](assets/images/photo21-1.jpg)
+Below the hero image, viewers will identify current events orgainsed and will be able to request information of any event.
 
-Below the hero image, viewers will identify current events orgainsed and will be able to subscribe to any event of their choosing.
 
-![Image of Event](docs/READMEfiles/imageofevent.jpg)
 
 Below the events section, the users will see a link which will take the viewer back to the top of the page.
 
