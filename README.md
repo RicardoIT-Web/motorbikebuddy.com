@@ -57,14 +57,13 @@ At the bottom of the page the user will identify the footer section which will c
 
 The Top navigation bar and the footer sections will be replicated on all pages of this website.
 
-* See "Future Features" in section 4 for whats to come in future releases.
+* See "Future Features" in section 4 for whats to come.
 
 
 ### _**About Us**_
 
 This page will contain a brief description of who the platform owners are and what services they aim to provide members and why.
 
-* See "Future Features" in section 4 for whats to come in future releases.
 
 ### _**Contact Us Page**_
 
@@ -99,7 +98,25 @@ Future releases will also include bar menus on smaller screens to reduce space a
 
 Future releases will include  the legal terms and conditions of use of the platform and also a link to "FAQs", Frequently Asked Questions.
 
+
+
+# Wireframes
+
+### _**Home Page**_
+
+![Home Page](docs/wireframes/homepage.jpg)
+
+### _**About Us**_
+
+![About Us Page](docs/wireframes/aboutus.jpg)
+
 ### _**Contact Us Page**_
+
+![Contact Us Page](docs/wireframes/contactus.jpg)
+
+### _**Confirmation Page**_
+
+![Confirmation Page](docs/wireframes/confirmationmessage.jpg)
 
 
 # Typography and Color schemes
@@ -124,24 +141,3 @@ No errors were found when passing through the official (Jigsaw) validator
 
 ### _**Media**_
 
-# Wireframes
-
-### _**Home Page**_
-
-![Home Page](docs/wireframes/home-page.jpg)
-
-### _**Login Page**_
-
-![Login Page](docs/wireframes/login-page.jpg)
-
-### _**About Us & Legal Terms Page**_
-
-![About Us Page](docs/wireframes/about-us-legal-terms-page.jpg)
-
-### _**Contact Us Page**_
-
-![Contact Us Page](docs/wireframes/contact-us-page.jpg)
-
-### _**Confirmation Page**_
-
-![Confirmation Page](docs/wireframes/confirmation-page.jpg)
