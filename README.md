@@ -14,12 +14,13 @@ The purpose of this Social Networking website is to provide a platform for motor
 * [User Stories](User-Stories)
 * [Features](Features)
 * [Future Features](Future-Features)
+* [Wireframes](Wireframes)
 * [Typography and Color schemes](Typography-and-Color-schemes)
 * [Testing](Testing)
 * [Unfixed Bugs](Unfixed-Bugs)
 * [Deployment](Deployment)
 * [Credits](Credits)
-* [Wireframes](Wireframes)
+
 
 
 # User Stories
@@ -65,7 +66,7 @@ Below the events section, the users will see a link which will take the viewer b
 
 ![Link Back to Top](docs/READMEfiles/backtotop.jpg)
 
-At the bottom of the page the user will identify the footer section which will contain the motorbikebuddy copyright icon to the right together with links to our social networking sites including Twiiter, Facebook and Instagram.
+At the bottom of the page the user will identify the footer section which will contain the motorbikebuddy copyright icon to the right together with links to social networking sites including Twiiter, Facebook and Instagram.
 
 ![Footer Links](docs/READMEfiles/footerimage.jpg)
 
@@ -79,11 +80,13 @@ This release will include a login page which will allow the user to insert their
 
 ![Login page](docs/READMEfiles/loginform.jpg)
 
-Future releases will include a personal profile page allowing the user to carryout other functions as described in the future features section.
+Future releases will include a personal profile page allowing the user to carry out other functions as described in the future features section.
 
 ### _**About Us**_
 
 This page will contain a brief description of who the platform owners are and what services they aim to provide members and why.
+
+![About Us Page](docs/READMEfiles/aboutusimg.jpg)
 
 See "Future Features" in section 4 for whats to come in future releases.
 
@@ -91,13 +94,15 @@ See "Future Features" in section 4 for whats to come in future releases.
 
 The contact Us page will allow users to reach out to us for any queries or concerns.
 
-This will be available using a "forms" feature where the user will be encouraged to fill in some 'required' basic information which will allow us to revert back to the user, using their preferred method (email or phone call),  with relevant responses.
+This will be available using a "forms" feature where the user will be encouraged to fill in some 'required' basic information which will allow us to revert back to the user, using their preferred method (email or phone call),  with relevant responses. Viewers using large screens will identify a link at the top of the page to diirect the user to the form section below the image.
+
+![Contact Us Link](docs/READMEfiles/contactuslink.jpg)
 
 See "Future Features" in section 4 for whats to come in future releases.
 
 ### _**Confirmation Page**_
 
-This page will provide the user who has raised a query in our "Contact Us" page, with a message of thanks for reaching out to us and with further comments to arrange a response back to the user dependent on the contact method chosen.
+This page will provide the user some reassurances that the form has been submitted successfully.
 
 # Future Features
 
