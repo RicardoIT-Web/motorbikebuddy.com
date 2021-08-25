@@ -279,7 +279,7 @@ h1 {
 }
 
 .form-section3 {
-    padding-top: 5rem;
+    padding-top: 1rem;
     display: inline-block;
 }
 
@@ -294,10 +294,15 @@ h1 {
 }
 
 .contactimg {
-    clear:left;
-    background-size: cover;
     background-position: center;
     width: 100vw;
+}
+#linktoform {
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration-line: underline;
+    color: gray;
 }
 
 /* Confirmation Page Styling */
@@ -427,10 +432,12 @@ h1 {
         display: none;
     }
 /* contact us */
+    #linktoform {
+        display: none;
+    }
     .contactimg {
         background-size:contain;
         background-repeat: no-repeat;
-        height: 100vh;
     }
 
     .form-section3 {
@@ -478,7 +485,6 @@ h1 {
 /* contact us */
     .form-section3 {
         clear: both;
-        padding-top: 17rem;
         max-width: 95%;
 
     }
@@ -491,7 +497,7 @@ h1 {
     .bgimage2 {
         background: url('../images/photo21.jpg');
         width: 100vw;
-        height: 80vh;
+        height: 100vh;
     }
 }
 
@@ -501,6 +507,12 @@ h1 {
     #container {
         margin-top: 1rem;
     }
+/*contact us*/
+    .form-section3 {
+        padding-top: 1rem;
+        width: 50%;
+        margin-left: 25%;
+}
 }
 
 /* media query for medium screens 1024px*/
@@ -528,13 +540,16 @@ h1 {
     }
 
 /* contact us */
+    .contactimg {
+        width: 100vw;
+    }
     .form-section2 {
         height: 80vh;
     }
     .form-section3 {
-        padding-top: 5rem;
-        max-width: 50%;
-        margin-left: 5%;
+        padding-top: 1rem;
+        width: 50%;
+        margin-left: 25%;
         margin-bottom: 5rem;
     }
 }
@@ -608,10 +623,10 @@ h1 {
     }
 /*contact us */
     .contactimg{
-        height: 60vh;
+        height: auto;
     }
     .form-section3 {
-        padding-top: 5rem;
+        padding-top: 1rem;
         max-width: 50%;
         margin-left: 25%;
         margin-right: 25%;
@@ -648,7 +663,6 @@ h1 {
 /*contact us*/
     .form-section2 {
         background-size: cover;   
-        height: 130vh;
     }
 }
 
