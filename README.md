@@ -1,6 +1,6 @@
 ![Motorbikebuddy Logo](https://user-images.githubusercontent.com/86360744/127296637-c0bfef77-1349-4904-b565-662f2adbd157.jpg)
 
-# Welcome to [motorbikebuddy.com](https://motorbikebuddy.com) A Social Networking Website for Motorbike Enthusiasts
+# Welcome to [motorbikebuddy.com](https://ricardoit-web.github.io/motorbikebuddy.com/) A Social Networking Website for Motorbike Enthusiasts
 
 
 ## Table of Contents
@@ -18,12 +18,12 @@
 
 # Purpose of this Project
 
-The purpose of this Social Networking website is to provide a platform for motorbike fans around the world to arrange gatherings for short trips, touring holidays and arrange related events where bikers can come together and experience memorable adventures. 
+The purpose of this Social Networking website is to provide a platform for motorbike fans around the world to arrange gatherings of short trips, touring holidays and arrange related events where bikers can come together and experience memorable adventures. 
 
 * Please refer to the "Features" section below for more details of what this release version will include. 
 * Other features in future releases will be included in "Future Features" section.
 
-
+![Am I Responsive Design](assets/images/imgamiresponsive.jpg)
 
 # User Stories
 
