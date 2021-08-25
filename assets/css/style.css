@@ -40,9 +40,7 @@ footer {
     top: 15px;
     color: #f2f2f2;
     position:relative;
-    padding: 20px 60px;
     text-decoration: none;
-    font-size: auto;
     background-color:hsl(27, 98%, 52%);
 }
 
@@ -59,7 +57,6 @@ footer {
     background: url('../images/photo21.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
 }
 
 h1 {
@@ -93,10 +90,6 @@ h1 {
     color: white;
     border: transparent;
     float: none;
-}
-
-#container .info:hover {
-    color: white
 }
 
 #containerfooter {
@@ -300,12 +293,12 @@ h1 {
     background: white;
 }
 
-.form-section2 {
+.contactimg {
     clear:left;
     background: url('../images/photo4.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    width: 100vw;
 }
 
 /* Confirmation Page Styling */
@@ -343,7 +336,6 @@ h1 {
     #navbar a {
         width: 50%;
         position: static;
-        position: inline-block;
         padding: 0.5rem;
     }
 }
@@ -353,7 +345,7 @@ h1 {
 @media only screen and (min-width: 320px) and (orientation: portrait) {
 /*navbar*/
     #navbar a {
-        font-size: small;
+        font-size: large;
     }
 /* index */
     #bgimage {
@@ -371,6 +363,7 @@ h1 {
     }
     #container {
         clear: both;
+        margin-top: 3rem;
         flex-direction: column;
     }
     #containerfooter {
@@ -402,6 +395,7 @@ h1 {
         font-size: x-small;
         text-align: center;
         padding-left: 0;
+        padding-top: 0;
     }
 /*login */
     .form-section1 {
@@ -409,12 +403,12 @@ h1 {
         background: url('../images/photo28.jpg');
         background-size: cover;
         background-position: center;
-        height: 80vh;
+        height: 60vh;
     }
     .login-form {
-        margin: 80px 10% 0 0;
+        margin: 50px 10px 0 0;
         max-width: 60%;
-        padding-left: 3rem;
+        padding-left: 1rem;
     }
 /*about us */
     #aboutuspage {
@@ -434,15 +428,15 @@ h1 {
         display: none;
     }
 /* contact us */
-    .form-section2 {
+    .contactimg {
         background: url('../images/photo4.jpg');
         background-size:contain;
         background-repeat: no-repeat;
     }
+
     .form-section3 {
-        padding-top: 12rem;
-        max-width: 90%;
-        margin-left: .8rem;
+        margin-left: 15%;
+        margin-right: 15%;
     }
    
     #email:focus {
@@ -462,13 +456,14 @@ h1 {
         display: block;
     }
     footer {
-        margin-top: 90px;
+        display: block;
+        margin-top: 50px;
     }
 }
 
 /* media query for small screens 360px*/
 
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 360px) and (orientation: landscape) {
 /* index */
     #container {
         clear: both;
@@ -483,7 +478,8 @@ h1 {
     }
 /* contact us */
     .form-section3 {
-        padding-top: 15rem;
+        clear: both;
+        padding-top: 17rem;
         max-width: 95%;
 
     }
@@ -491,418 +487,20 @@ h1 {
 
 /* media query for small screens 375px*/
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 375px) and (orientation: landscape) {
 /*index */
-    #bgimage2 {
-        width: 100vw;
-        height: 35vh;
-    }
-    #container {
-        clear: both;
-        flex-direction: column;
-        text-align: center;
-        float: none;
-        width: 100%;
-    }
-/* login */
-    .form-section1 {
-        height: 55vh;
-    }
-    .login-form {
-        margin-top: 60px;
-    }
-    /*contact us */
-    .form-section3 {
-        padding-top: 15rem;
-        max-width: 95%;
-        margin-bottom: 5rem;
-    }
-}
-
-/* media query for small screens 411px*/
-
-@media only screen and (min-width: 411px) {
-/*index */
-    #container {
-        clear: both;
-        flex-direction: column;
-        text-align: center;
-        float: none;
-        width: 100%;
-    }
-/* login */
-    .form-section1 {
-        clear:left;
-        background: url('../images/photo28.jpg');
-        background-size: cover;
-        background-position: center;
-        height: 80vh;
-    }
-/* about us */
-    #aboutuspage {
-        width: 92%;
-        height: auto;
-        padding-top: 4rem;
-        padding-left: 1rem;
-    }
-/*contact us */
-    .form-section3 {
-        padding-top: 15rem;
-        max-width: 93%;
-        margin-bottom: 5rem;
-    }
-}
-
-/* media query for small screens 540px*/
-
-@media only screen and (min-width: 540px) {
-/* index */
     .bgimage2 {
-        background: url('../images/photo21-1.jpg');
-        width: 100vw;
-        height: 30vh;
-}
-    #container {
-        clear: both;
-        flex-direction: column;
-        text-align: center;
-        float: none;
-        width: 100%;
-        margin-top: -2rem;
-    }
-/* about us */
-    #aboutuspage {
-        width: 94%;
-        height: auto;
-        padding-top: 4rem;
-        padding-left: 1rem;
-    }
-/*contact us */
-    .form-section3 {
-        padding-top: 20rem;
-        max-width: 95%;
-        margin-bottom: 5rem;
-    }
-}
-
-/* media query for small screens 568px*/
-
-@media only screen and (min-width: 568px) and (orientation: landscape) {
-/* index */
-    .bgimage2 {
-        width: 100vw;
-        height: 50vh;
-    }
-    h1 {
-        font-size: 1rem;
-        padding-top: 0.6rem;
-        padding-left: 0;
-        text-align: center;
-    }
-    #linktoevents {
-        display: none;
-    }
-/*login */
-    .login-form {
-        padding-top: 13rem;
-        max-width: 50%;
-        padding-left: 3rem;
-    }
-    .footer-links {
-        font-size: x-small;
-        text-align: center;
-        padding-left: 0;
-        padding-top: 16rem;
-    }
-/*about us */
-    #aboutusimg{
-        display: none;
-    }
-/*contact us */
-    .form-section2 {
-        height: 200vh;
-    }
-
-    .form-section3 {
-        padding-top: 1rem;
-        margin-left: 2%;
-        width: 50%;
-    }
-}
-
-/* media query for small screens 640px*/
-
-@media only screen and (min-width: 640px) and (orientation: landscape) {
-/*index*/
-    #container {
-        clear: both;
-        flex-direction: column;
-        height: 550vh;
-    }
-    #container .info {
-        font-size: small;
-    }
-    .footer-links {
-        font-size: 1rem;
-        text-align: center;
-        padding-left: 0;
-        padding-top: 10rem;
-    }
-/*login*/
-    .form-section1 {
-        height: 100vh;
-    }
-    .login-form {
-        padding-top: 1rem;
-        max-width: 50%;
-        padding-left: 3rem;
-    }
-/*about us*/
-    #aboutusimg {
-        display: none;
-    }
-/*contact us*/
-    .form-section2 {
-        height: 130vh;
-    }
-    .form-section3 {
-        padding-top: .5rem;
-        max-width: 50%;
-        margin-left: .8rem;
-    }
-}
-
-/* media query for medium screens 720px*/
-
-@media only screen and (min-width: 720px) and (orientation: landscape) {
-/*index*/
-    #bgimage {
-        height: 80vh;
-    }
-    #container {
-        clear: both;
-    }
-    .footer-links {
-        padding-top: 0;
-    }    
-}
-
-/* media query for medium screens 768px*/
-
-@media only screen and (min-width: 768px) {
-/* index */
-    #bgimage {
-        width: 90vw;
-        height: 50vh;
-        margin: 0 5% 0 5%;
-    }
-    h1 {
-        font-size: 2rem;
-    }
-    #container {
-        clear: both;
-        flex-direction: column;
-        text-align: center;
-        float: none;
-        width: 75%;
-        margin-left: 12.5%;
-        margin-top: 2rem;
-    }
-    #containerfooter {
-        margin-bottom: 0rem;
-    }
-    .footer-links {
-        font-size: .5rem;
-        text-align: center;
-        padding-left: 0;
-        padding-top: 5rem;
-    }
-
-/*contact us */
-    .form-section3 {
-        padding-top: 30rem;
-        max-width: 75%;
-        margin-left: 12.5%;
-        margin-bottom: 5rem;
-    }
-}
-
-/* media query for medium screens 800px*/
-
-@media only screen and (min-width: 800px) and (orientation: landscape) {
-/*index */
-    #bgimage {
         background: url('../images/photo21.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100vw;
-        height: 110vh;
-        margin: 0;
-    }
-    #container {
-        clear: both;
-        flex-direction: column;
-        text-align: center;
-        float: none;
-        height: 470vh;
-        width: 65%;
-        margin-left: 17.5%;
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-    }
-    #containerfooter {
-        margin-bottom: 1rem;
-    }
-    #linktotop {
-        display: grid;
-        margin-top: 2rem;
-    }
-    .footer-links a {
-        font-size: 1rem;
-    }
-/*contact us*/
-    .form-section2 {
-        height: 150vh;
-    }
-    .form-section3 {
-        padding-top: 2rem;
-    }
-}
-
-/* media query for medium screens 812px*/
-
-@media only screen and (min-width: 812px) and (orientation: landscape) {
-/*index */
-    #bgimage {
-        height:100vh;
-    }
-    h1 {
-        font-size: 1rem;
-    }
-    #container {
-        clear: both;
-    }
-    .footer-links a {
-        font-size: 1rem;
-    }
-/*contact us*/
-    .form-section3 {
-        padding-top: 2rem;
-        max-width: 50%;
-        margin-left: 5%;
-        margin-bottom: 5rem;
-    }
-}
-
-/* media query for medium screens 840px*/
-
-@media only screen and (min-width: 840px) and (orientation: landscape) {
-/*index */
-    #bgimage {
-        height: 100vh;
-        width: 100vw;
-    }
-    #container {
-        clear: both;
-    }
-    .footer-links a {
-        font-size: 1rem;
-    }
-/*contact us*/
-    .form-section3 {
-        padding-top: 2rem;
-        max-width: 50%;
-        margin-left: 5%;
-        margin-bottom: 5rem;
-    }
-}
-
-/* media query for medium screens 840px*/
-
-@media only screen and (min-width: 840px) {
-/*index */
-    #bgimage {
-        width: 90vw;
-        height: 50vh;
-    }
-    h1 {
-        font-size: 2rem;
-    }
-    #container {
-        clear: both;
-        flex-direction: column;
-        text-align: center;
-        float: none;
-        width: 75%;
-        margin-left: 12.5%;
-        margin-top: 2rem;
-    }
-/*login */
-    .form-section1 {
-        clear:left;
-        background: url('../images/photo28.jpg');
-        background-size: cover;
-        background-position: center;
-        height: 50vh;
-    }
-}
-
-/* media query for medium screens 896px*/
-
-@media only screen and (min-width: 896px) and (orientation: landscape) {
-/*index*/
-    #bgimage {
-        background: url('../images/photo21.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100vw;
         height: 80vh;
     }
-    #container {
-        clear: both;
-        flex-direction: column;
-        text-align: center;
-        float: none;
-        width: 65%;
-        margin-left: 17.5%;
-        margin-top: 3rem;
-     }
-     #containerfooter {
-         margin-bottom: 1rem;
-     }
-/*login*/
-    .form-section1 {
-        height: 100vh;
-    }
 }
 
-/* media query for medium screens 992px*/
-
-@media only screen and (min-width: 992px) {
-/*index */
-    #bgimage {
-        background: url('../images/photo21.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 90vw;
-        height: 50vh;
-    }
+/* media query for small screens 863px*/
+@media only screen and (min-width: 863px) and (orientation: landscape) {
+/*index*/
     #container {
-        clear: both;
-        flex-direction: column;
-        text-align: center;
-        float: none;
-        height: 210vh;
-        width: 65%;
-        margin-left: 17.5%;
-        margin-top: 3rem;
-    }
-    #containerfooter {
-        margin-bottom: 1rem;
-    }
-    #linktotop {
-        display:block;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 }
 
@@ -914,8 +512,7 @@ h1 {
         background: url('../images/photo21.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        width: 95vw;
-        margin: 0 2.5% 0 2.5%;
+        width: 100vw;
         height: 55vh;
     }
     #container {
@@ -947,6 +544,9 @@ h1 {
 
 @media only screen and (min-width: 1200px) {
 /*index */
+    #navber img {
+        content: url('/assets/images/motorbikebuddy-logo.jpg');
+    }
     #bgimage {
         background: url('../images/photo21.jpg');
         background-repeat: no-repeat;
@@ -955,13 +555,12 @@ h1 {
         margin: 0;
         height: 80vh;
     }
+    h1 {
+        text-align: center;
+    }
     #linktoevents {
         display: block;
         text-align: center;
-        font-size: 1.5rem;
-        text-decoration: transparent;
-        color: gray;
-        padding-left: 3rem;
     }
     #container {
         clear: both;
@@ -990,13 +589,15 @@ h1 {
         background-color: hsl(27, 98%, 52%);
         font-size: x-small;
     }
+    #linktop {
+        margin-top: 2rem;
+    }
     .footer-links {
         font-size: small;
     }
 /*Login*/
     .login-form {
         margin: 80px 10% 0 0;
-        color: hsl(27, 98%, 52%);
         background: transparent;
         max-width: 50%;
         position:absolute;
@@ -1007,10 +608,15 @@ h1 {
         margin-top: 0;
     }
 /*contact us */
+    .contactimg{
+        height: 60vh;
+    }
     .form-section3 {
-        padding-top: 2rem;
-        width: 500px;
-        margin-left: 5rem;
+        padding-top: 5rem;
+        max-width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 5rem;
     }
     .form-section2 {
         background-size: cover;   
@@ -1021,6 +627,13 @@ h1 {
 /* media query for large screens 1300px*/
 
 @media only screen and (min-width: 1300px) {
+/*index*/
+    #navbar a {
+        margin-top: 1rem;
+        padding: 1.5rem;
+        width: 10%;
+    }
+/*login*/
     .form-section1 {
         height: 70vh;
     }
@@ -1039,3 +652,4 @@ h1 {
         height: 130vh;
     }
 }
+
