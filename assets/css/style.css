@@ -336,7 +336,7 @@ h1 {
     #navbar a {
         width: 50%;
         position: static;
-        padding: 0.5rem;
+        padding: .5rem;
     }
 }
 
@@ -630,7 +630,7 @@ h1 {
 /*index*/
     #navbar a {
         margin-top: 1rem;
-        padding: 1.5rem;
+        padding: 1rem;
         width: 10%;
     }
 /*login*/
