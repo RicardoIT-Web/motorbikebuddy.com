@@ -2,7 +2,7 @@
 
 # Welcome to [motorbikebuddy.com](https://ricardoit-web.github.io/motorbikebuddy.com/) A Social Networking Website for Motorbike Enthusiasts
 
-![Am I Responsive Design](../assets/docs/imgamiresponsive.jpg)
+![Am I Responsive Design](docs/READMEfiles/imageamiresponsive.jpg)
 
 This project was developed to satisfy the first Milestone Project requirements of the Full Stack Web Development Program at the [Code Institute](https://www.codeinstitute.net). As a first project, this site was created using HTML5 and CSS3 languages.
 
@@ -61,17 +61,29 @@ Below the hero image, viewers will identify current events orgainsed and will be
 
 ![Image of Event](docs/READMEfiles/imageofevent.jpg)
 
-At the bottom of the page the user will identify the footer section which will contain the motorbikebuddy copyright icon to the left together with links to our social networking sites including Twiiter, Facebook and Instagram. To the right of the footer section will be button feature allowing the user to navigate to the respective information on other pages.
+Below the events section, the users will see a link which will take the viewer back to the top of the page.
+
+![Link Back to Top](docs/READMEfiles/backtotop.jpg)
+
+At the bottom of the page the user will identify the footer section which will contain the motorbikebuddy copyright icon to the right together with links to our social networking sites including Twiiter, Facebook and Instagram.
+
+![Footer Links](docs/READMEfiles/footerimage.jpg)
 
 The Top navigation bar and the footer sections will be replicated on all pages of this website.
 
-See "Future Features" in section 4 for whats to come in future releases.
+* See "Future Features" in section 4 for whats to come in future releases.
 
-### _**About Us / Legal Terms Page**_
+### _**Login Page**_
 
-This page will be split into two sections which will contain a brief description of who we are as owners of this platform and what services we aim to provide our users.
+This release will include a login page which will allow the user to insert their username and password. After clicking the kickstart-go button, the user will be routed back to the home page. There will also be a clear button if the user wishes to clear the form.
 
-This will also be acompanied by our Legal Terms & Conditions on the same page.
+![Login page](docs/READMEfiles/loginform.jpg)
+
+Future releases will include a personal profile page allowing the user to carryout other functions as described in the future features section.
+
+### _**About Us**_
+
+This page will contain a brief description of who the platform owners are and what services they aim to provide members and why.
 
 See "Future Features" in section 4 for whats to come in future releases.
 
