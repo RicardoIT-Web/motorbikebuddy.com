@@ -2,9 +2,15 @@
 
 # Welcome to [motorbikebuddy.com](https://ricardoit-web.github.io/motorbikebuddy.com/) A Social Networking Website for Motorbike Enthusiasts
 
+![Am I Responsive Design](../assets/docs/imgamiresponsive.jpg)
+
+This project was developed to satisfy the first Milestone Project requirements of the Full Stack Web Development Program at the [Code Institute](https://www.codeinstitute.net). As a first project, this site was created using HTML5 and CSS3 languages.
+
+The purpose of this Social Networking website is to provide a platform for motorbike fans around the world to arrange gatherings of short trips, touring holidays and arrange related events where bikers can come together and experience memorable adventures.
+
+
 
 ## Table of Contents
-* [Purpose of this Project](Purpose-of-this-Project)
 * [User Stories](User-Stories)
 * [Features](Features)
 * [Future Features](Future-Features)
@@ -16,37 +22,44 @@
 * [Wireframes](Wireframes)
 
 
-# Purpose of this Project
-
-The purpose of this Social Networking website is to provide a platform for motorbike fans around the world to arrange gatherings of short trips, touring holidays and arrange related events where bikers can come together and experience memorable adventures. 
-
-* Please refer to the "Features" section below for more details of what this release version will include. 
-* Other features in future releases will be included in "Future Features" section.
-
-![Am I Responsive Design](assets/images/imgamiresponsive.jpg)
-
 # User Stories
+## Prospective User
 
-I am a Motorbike fan and have been for many years. I use my motorbike for leasure only. As a user of this platform I aim to find likeminded biker fans to arrange weekend get togethers and go for short trips around the countryside. I believe in safety by numbers and by arranging trips in groups, we can experience memorable trips whilst supporting eachother along the way. This is a great platform for meeting other like minded bikers looking for similar expereinces. By signing in to this website I am automatically shown memebers near me allowing me to "buddy up" with them.
+I am a prospective Motorbike buddy site member and I want to be able to:
 
-* I will expect to find a navigation bar where I will identify the website logo and some login and registration functionalities. I will also see a bar menu which will include links to all the web pages so that I will not spend time jumping from one page to the next in order to find the information I require.
+* Immediately understand the purpose of the motorbikebuddy website.
+* Locate the navigation bar.
+* Login in to the site.
+* View information about the owners of the platform.
+* Reach out to the owners of the platform for any questions or concerns about the platform.
+* Easily see what current events are available.
 
-* In the middle of the page I will see a "hero" image of bikers having fun riding their bikes. There will be 4 or 5 different images in a loop which will add to my user experience of the home page.
+## Existing User
 
-* Below the hero image I will identify card tiles with existing members' reviews of the site and their experiences so far.
+I am an existing Motorbike buddy site member and I want to be able to:
 
-* At the bottom of the page I will see the copyright icon together with some buttons with links allowing me to navigate to other pages for more details as required.
-
+* Login in to my personal profile.
+* View current events that might interest me.
+* Subscribe to any event I may wish to join in.
+* View information about the owners of the platform.
+* Reach out to the owners of the platform for any questions or concerns.
+* Receive a confirmation notification once I have submitted my questions or concerns.
 
 # Features
 
 ### _**The Home Page**_
 
-The first release version of this website will include a home page which will contain a navigation bar at the top, containing the website Logo floated to the left and to the right will include the functionality for the user to register and to login. There will also be a Home page button and a menu bar which will include all options in all the pages of this website, allowing the user to switch directly to a desired section without needing to navigate to the required page.
+The first release version of this website will include a home page which will contain a navigation bar at the top, containing the website Logo floated to the left and to the right will include the functionality for the user to login, view information about the sites objectives and be able to reach out to the platform owners if required.
 
-This home page will include "Hero" images of bikers, which will change every 15-20 seconds, (max 5 different images in a loop).
+![Nav Bar Image](docs/READMEfiles/imageofnavbar.jpg)
 
-Below the hero images, the viewers will see "Card Tiles" which will display members' reviews of their experiences with us and with events they have attended.
+This home page will include a "Hero" image.
+
+![Hero Image](assets/images/photo21-1.jpg)
+
+Below the hero image, viewers will identify current events orgainsed and will be able to subscribe to any event of their choosing.
+
+![Image of Event](docs/READMEfiles/imageofevent.jpg)
 
 At the bottom of the page the user will identify the footer section which will contain the motorbikebuddy copyright icon to the left together with links to our social networking sites including Twiiter, Facebook and Instagram. To the right of the footer section will be button feature allowing the user to navigate to the respective information on other pages.
 
