@@ -173,16 +173,13 @@ body {
     height: 2rem;
     margin: 2rem 0 2rem 0;
     border: .1rem solid hsl(27, 98%, 52%);
-    border-radius: .5rem; 
+    border-radius: .5rem;
+    color: black;
 }
 
 .form-section2 h2 {
     color: hsl(27, 98%, 52%);
     width: 100%;
-}
-
-#formfield:focus {
-    color: black;
 }
 
 .form-section3 {
@@ -366,10 +363,6 @@ body {
         margin-left: 10%;
     }
       
-    #formfield:focus {
-        color: black;
-    }
-    
     #query {
         width: 100%;
         border-radius: 5px;

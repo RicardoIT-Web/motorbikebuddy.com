@@ -141,7 +141,13 @@ No Errors
 
 * About-Us.HTML
 
+Initial errors found as per the below image; All errors resolved by amending amending the alt tag to an aria-label.
 
+![W3C Errors](docs/READMEfiles/w3c-about-us-html-error.jpg)
+
+No Errors
+
+![W3C No Errors](docs/READMEfiles/w3c-about-us-html-noerror.jpg)
 
 CSS
 No errors were found when passing through the official (Jigsaw) validator
