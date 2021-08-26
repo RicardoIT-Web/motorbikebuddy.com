@@ -121,6 +121,9 @@ Future releases will include  the legal terms and conditions of use of the platf
 
 # Typography and Color schemes
 
+The font used throughout this site is Montserrat. Open-sans is used as the fallback font. The Logo is an image so no font required.
+The colors selected have been to compliment the logo colors.
+
 # Testing
 
 ### _**Validator Testing**_
