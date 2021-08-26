@@ -143,6 +143,14 @@ The colors used throughout the site have been selected to compliment the logo co
 
 # Testing
 
+* I tested this site on both IE and Google Chrome browsres and can confirm that it works on both browsers.
+
+* I can confirm that this project is responsive, it looks good on the screens provided by the devtools.
+
+* I can confirm the the site links all work well and that the text is legiable in all settings.
+
+* I can confirm that the forms are in good working order and that mandatory fields and active as should be.
+
 ### _**Validator Testing**_
 
 #### _**HTML - W3C Test**_
@@ -191,11 +199,36 @@ No errors were found when passing through the official (Jigsaw) validator
 
 # Unfixed Bugs
 
+There are no bugs detected.
+
 # Deployment
+
+* This site was deployed to GitHub pages. Steps taken to deploy;
+
+    * In GitHub repository click settings tab.
+    * From the source section dropdown menu, select main branch.
+    * Once complete the page provided the deployed site link.
+
+Deployed site link - [www.motorbikebuddy.com](https://ricardoit-web.github.io/motorbikebuddy.com/)
 
 # Credits
 
 ### _**Content**_
 
+    * The code used on the forms was taken from the CI Love Running Project.
+
 ### _**Media**_
+
+* Images were taken from Google Images and Pexels.
+
+* The Motorbikebuddy logo was provided by Mybuddy Ltd.
+
+* Other support received from site below;
+
+    * www.w3schools.com 
+    * www.developer.mozilla.org
+    * www.css-tricks.com
+    * www.getbootstrap.com
+    * www.whatismyviewport.com
+    * www.stackoverflow.com
 
