@@ -128,8 +128,9 @@ The colors used throughout the site have been selected to compliment the logo co
 
 ### _**Validator Testing**_
 
-HTML - W3C Test
-* Index.HTML
+#### _**HTML - W3C Test**_
+
+* Index Page
 
 Initial errors found as per the below image; All errors resolved by amending viewport values to original Codeinstitute template and by replacing duplicate IDs with Class.
 
@@ -139,9 +140,9 @@ No Errors
 
 ![W3C No Errors](docs/READMEfiles/w3c-indexpage-noerrors.jpg)
 
-* About-Us.HTML
+* About Us Page
 
-Initial errors found as per the below image; All errors resolved by amending amending the alt tag to an aria-label.
+Initial errors found as per the below image; All errors resolved by amending the alt tag to an aria-label.
 
 ![W3C Errors](docs/READMEfiles/w3c-about-us-html-error.jpg)
 
@@ -149,8 +150,27 @@ No Errors
 
 ![W3C No Errors](docs/READMEfiles/w3c-about-us-html-noerror.jpg)
 
+* Contact Us Page
+
+Initial errors identified missing IDs to the email and phone labels. IDs implemented to resolve.
+
+![W3C Errors](docs/READMEfiles/w3c-contact-us-html-error.jpg)
+
+No Errors
+
+![W3C No Errors](docs/READMEfiles/w3c-contact-us-html-noerror.jpg)
+
+* Confirmation Message Page
+
+No errors identified.
+
+![W3C No Errors](docs/READMEfiles/w3c-confirmationpage-html-noerror.jpg)
+
 CSS
 No errors were found when passing through the official (Jigsaw) validator
+
+![CSS Jigsaw W3 Validator](docs/READMEfiles/cssjigsaww3validator-noerror.jpg)
+
 
 # Unfixed Bugs
 
