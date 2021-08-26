@@ -271,17 +271,17 @@ body {
 
 /* media query 320px */
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 539px) {
 /*navbar*/
     #navbar a {
-        width: 50%;
+        width: 40%;
         font-size: x-small;
         flex-direction: column;
         padding: .5rem;
      }
 /* index */
     #bgimage {
-        min-height: 30rem;
+        min-height: 30vh;
         margin-top: .5rem;
     }
     .join-us {
@@ -291,41 +291,38 @@ body {
         display: none;
     }
     #container {
+        width: 100%;
         flex-direction: column;
         clear: both;
         margin-top: 2rem;
     }
     #container .info {
         width: 100%;
+        font-size: x-small;
     }
     .containerfooter {
-        width: 100%;
         margin-bottom: 1rem;
     }
     #container .info {
-        font-size: small;
+        font-size: xx-small;
     }
     h2 {
         color: black;
     }
     .item1 img {
         width: 100%;
-        height: auto;
     }
     .item2 img {
         width: 100%;
-        height: auto;
     }
     .item3 img {
         width: 100%;
-        height: auto;
     }
     .item4 img {
         width: 100%;
-        height: auto;
     }
     .footer-links {
-        font-size: x-small;
+        font-size: xx-small;
         text-align: center;
         padding-left: 0;
         padding-top: 0;
@@ -346,10 +343,6 @@ body {
         text-align: justify;
         color: gray;
     }
-    
-    #aboutusimg {
-        display: none;
-    }
 /* contact us */
     #linktoform {
         display: none;
@@ -357,6 +350,7 @@ body {
     .contactimg {
         background-size:contain;
         background-repeat: no-repeat;
+        margin-top: .5rem;
     }
     .form-section3 {
         width: 80%;
@@ -377,15 +371,47 @@ body {
     }
 }
 
+/* media query for small screens 540px*/
+
+@media only screen and (min-width: 540px) and (max-width: 768px) {
+/*index*/
+    #navbar a {
+        font-size: small;
+    }
+    #bgimage {
+        height: 40vh;
+    }
+/*about us */
+    #aboutuspage {
+        width: 85%;
+        margin-left: 5%;
+    }
+/*contact us*/
+    #linktoform {
+        display: none;
+    }
+    .contactimg {
+        background-size:contain;
+        background-repeat: no-repeat;
+        margin-top: 1rem;
+    }
+    .form-section3 {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .footer-links {
+        font-size: xx-small;
+    }
+}
+
 /* media query for small screens 769px*/
 
-@media only screen and (min-width: 769px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 /*index*/
     #navbar {
         padding: .5rem;
     }
     #bgimage {
-        margin-top: .5rem;
         width: 100vw;
         min-height: 30rem;
     }
@@ -543,7 +569,7 @@ body {
         background-size: cover;
         margin-top: .5rem;
         width: 100%;
-        min-height: 55rem;
+        height: 100vh;
     }
     #linktoevents {
         display: grid;

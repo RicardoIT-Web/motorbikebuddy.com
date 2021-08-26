@@ -41,33 +41,48 @@ I am a prospective Motorbike buddy site member and I want to be able to:
 
 ### _**The Home Page**_
 
-The first release version of this website will include a home page which will contain a navigation bar at the top, containing the website Logo floated to the left and to the right will include the functionality for the user to view information about the sites objectives and be able to reach out to the platform owners for information.
+The first release version of this website will include a home page which will contain a navigation bar at the top, containing the website Logo floated to the left and to the right will include the functionality for the user to view links to the home page, information about the sites objectives and be able to reach out to the platform owners for information.
+
+![navbar image](docs/READMEfiles/imageofnavbar.jpg)
 
 This home page will include a "Hero" image.
 
+![hero image](docs/READMEfiles/heroimage.jpg)
+
 Below the hero image, viewers will identify current events orgainsed and will be able to request information of any event.
 
+![example of event](docs/READMEfiles/imageofevent.jpg)
 
+The user is able to find out more details about each event by clicking on the link in the event footer. This link will direct the user to the contact us page where they will be required to fill out some details in order to receive response from the site owners.
 
 Below the events section, the users will see a clickable link which will take the viewer back to the top of the page.
 
+![clickable link to top](docs/READMEfiles/backtotop.jpg)
 
 At the bottom of the page the user will identify the footer section which will contain the motorbikebuddy copyright icon to the right together with links to social networking sites including Twiiter, Facebook and Instagram.
+
+![image of footer section](docs/READMEfiles/footerimage.jpg)
 
 
 The Top navigation bar and the footer sections will be replicated on all pages of this website.
 
-* See "Future Features" in section 4 for whats to come.
+* See "Future Features" in section 4 for whats to come in future releases.
 
 
 ### _**About Us**_
 
 This page will contain a brief description of who the platform owners are and what services they aim to provide members and why.
 
+![about us page](docs/READMEfiles/aboutusimg.jpg)
+
 
 ### _**Contact Us Page**_
 
-The contact Us page will allow users to reach out to us for information related to the website.
+The contact Us page will allow users to reach out to us for information related to the website. Above the hero image users on larger screens will find a link directing them to the form.
+
+![Contact Us Page](docs/READMEfiles/contactuslink.jpg)
+
+![contact us form](docs/READMEfiles/contactusform.jpg)
 
 This will be available using a "forms" feature where the user will be encouraged to fill in some 'required' basic information which will allow Owners to revert back to the user, using their preferred method (email or phone call),  with relevant responses. Viewers using large screens will identify a link above the Hero Image to direct the user to the form section below.
 
@@ -75,7 +90,9 @@ See "Future Features" in section 4 for whats to come in future releases.
 
 ### _**Confirmation Page**_
 
-This page will provide the user with assurances that the form has been submitted successfully.
+Upon submitting the contact us form to the site owners, the users will be directed to a new page. This page will provide the user with assurances that the form has been submitted successfully. This page also contains a link to direct the user back to the home page.
+
+![confirmation notice](docs/READMEfiles/confirmationmessage.jpg)
 
 # Future Features
 
