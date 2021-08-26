@@ -128,8 +128,20 @@ The colors used throughout the site have been selected to compliment the logo co
 
 ### _**Validator Testing**_
 
-HTML
-No errors were returned when passing through the official W3C validator
+HTML - W3C Test
+* Index.HTML
+
+Initial errors found as per the below image; All errors resolved by amending viewport values to original Codeinstitute template and by replacing duplicate IDs with Class.
+
+![W3C Errors](docs/READMEfiles/w3c-indexpage.jpg)
+
+No Errors
+
+![W3C No Errors](docs/READMEfiles/w3c-indexpage-noerrors.jpg)
+
+* About-Us.HTML
+
+
 
 CSS
 No errors were found when passing through the official (Jigsaw) validator
