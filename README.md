@@ -2,7 +2,7 @@
 
 # Welcome to [motorbikebuddy.com](https://ricardoit-web.github.io/motorbikebuddy.com/) A Social Networking Website for Motorbike Enthusiasts
 
-![Am I Responsive Design](docs/READMEfiles/imageamiresponsive.jpg)
+![Am I Responsive Design](docs/READMEfiles/amiresponsive.jpg)
 
 This project was developed to satisfy the first Milestone Project requirements of the Full Stack Web Development Program at the [Code Institute](https://www.codeinstitute.net). As a first project, this site is created using HTML5 and CSS3 languages.
 
@@ -122,7 +122,7 @@ Future releases will include  the legal terms and conditions of use of the platf
 # Typography and Color schemes
 
 The font used throughout this site is Montserrat. Open-sans is used as the fallback font. The Logo is an image so no font required.
-The colors selected have been to compliment the logo colors.
+The colors used throughout the site have been selected to compliment the logo colors.
 
 # Testing
 
